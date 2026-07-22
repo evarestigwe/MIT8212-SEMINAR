@@ -1,0 +1,71 @@
+﻿Name:             predictive-app-6958f4b77b-x5lhr
+Namespace:        seminar
+Priority:         0
+Service Account:  default
+Node:             seminar-lab-control-plane/172.18.0.2
+Start Time:       Tue, 21 Jul 2026 21:46:52 +0100
+Labels:           app=predictive-app
+                  pod-template-hash=6958f4b77b
+Annotations:      <none>
+Status:           Running
+IP:               10.244.0.9
+IPs:
+  IP:           10.244.0.9
+Controlled By:  ReplicaSet/predictive-app-6958f4b77b
+Containers:
+  predictive-app:
+    Container ID:   containerd://0a8991ea48512609e9102801323430913e7f1761c14a6d165e1a9f0e7b256054
+    Image:          predictive-app:v1
+    Image ID:       sha256:398ad5785bf9258c088266310f4c962c61675ddc1d6cdc25d901e21b0dd93c13
+    Port:           <none>
+    Host Port:      <none>
+    State:          Running
+      Started:      Tue, 21 Jul 2026 22:16:03 +0100
+    Last State:     Terminated
+      Reason:       OOMKilled
+      Exit Code:    137
+      Started:      Tue, 21 Jul 2026 22:10:58 +0100
+      Finished:     Tue, 21 Jul 2026 22:15:52 +0100
+    Ready:          True
+    Restart Count:  2
+    Limits:
+      cpu:     500m
+      memory:  64Mi
+    Requests:
+      cpu:      100m
+      memory:   32Mi
+    Liveness:   http-get http://:8080/health delay=10s timeout=2s period=10s #success=1 #failure=3
+    Readiness:  http-get http://:8080/health delay=3s timeout=1s period=5s #success=1 #failure=3
+    Environment:
+      LEAK_KB_PER_REQUEST:  128
+      CPU_WORK_MS:          10
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-vswf5 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-vswf5:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   Burstable
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                From               Message
+  ----     ------     ----               ----               -------
+  Normal   Scheduled  49m                default-scheduler  Successfully assigned seminar/predictive-app-6958f4b77b-x5lhr to seminar-lab-control-plane
+  Warning  Unhealthy  22m                kubelet            Readiness probe failed: Get "http://10.244.0.9:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Warning  Unhealthy  20m                kubelet            Liveness probe failed: Get "http://10.244.0.9:8080/health": read tcp 10.244.0.1:43866->10.244.0.9:8080: read: connection reset by peer
+  Warning  BackOff    20m (x3 over 20m)  kubelet            Back-off restarting failed container predictive-app in pod predictive-app-6958f4b77b-x5lhr_seminar(47c32b6e-b6b3-47d7-864c-e098a3db4565)
+  Normal   Pulled     20m (x3 over 49m)  kubelet            Container image "predictive-app:v1" already present on machine and can be accessed by the pod
+  Normal   Created    20m (x3 over 49m)  kubelet            Container created
+  Normal   Started    20m (x3 over 49m)  kubelet            Container started

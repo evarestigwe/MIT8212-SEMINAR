@@ -1,0 +1,29 @@
+﻿LAST SEEN   TYPE      REASON              OBJECT                                 MESSAGE
+50m         Normal    Scheduled           pod/predictive-app-6958f4b77b-x5lhr    Successfully assigned seminar/predictive-app-6958f4b77b-x5lhr to seminar-lab-control-plane
+50m         Normal    Scheduled           pod/predictive-app-5649b745dd-h4xpf    Successfully assigned seminar/predictive-app-5649b745dd-h4xpf to seminar-lab-control-plane
+57m         Normal    SandboxChanged      pod/predictive-app-68f746f58d-5hf7v    Pod sandbox changed, it will be killed and re-created.
+57m         Normal    Created             pod/predictive-app-68f746f58d-5hf7v    Container created
+57m         Normal    Pulled              pod/predictive-app-68f746f58d-5hf7v    Container image "predictive-app:v1" already present on machine and can be accessed by the pod
+57m         Normal    Started             pod/predictive-app-68f746f58d-5hf7v    Container started
+57m         Warning   Unhealthy           pod/predictive-app-68f746f58d-5hf7v    Readiness probe failed: Get "http://10.244.0.5:8080/health": dial tcp 10.244.0.5:8080: connect: connection refused
+57m         Warning   Unhealthy           pod/predictive-app-68f746f58d-5hf7v    Readiness probe failed: Get "http://10.244.0.5:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+57m         Warning   Unhealthy           pod/predictive-app-68f746f58d-5hf7v    Liveness probe failed: Get "http://10.244.0.5:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+50m         Normal    SuccessfulCreate    replicaset/predictive-app-5649b745dd   Created pod: predictive-app-5649b745dd-h4xpf
+50m         Normal    ScalingReplicaSet   deployment/predictive-app              Scaled up replica set predictive-app-5649b745dd from 0 to 1
+50m         Normal    SuccessfulDelete    replicaset/predictive-app-5649b745dd   Deleted pod: predictive-app-5649b745dd-h4xpf
+50m         Normal    SuccessfulCreate    replicaset/predictive-app-6958f4b77b   Created pod: predictive-app-6958f4b77b-x5lhr
+50m         Normal    Created             pod/predictive-app-5649b745dd-h4xpf    Container created
+50m         Normal    ScalingReplicaSet   deployment/predictive-app              Scaled up replica set predictive-app-6958f4b77b from 0 to 1
+50m         Normal    Pulled              pod/predictive-app-5649b745dd-h4xpf    Container image "predictive-app:v1" already present on machine and can be accessed by the pod
+50m         Normal    ScalingReplicaSet   deployment/predictive-app              Scaled down replica set predictive-app-5649b745dd from 1 to 0
+50m         Normal    Killing             pod/predictive-app-5649b745dd-h4xpf    Stopping container predictive-app
+50m         Normal    Started             pod/predictive-app-5649b745dd-h4xpf    Container started
+50m         Normal    Killing             pod/predictive-app-68f746f58d-5hf7v    Stopping container predictive-app
+50m         Normal    SuccessfulDelete    replicaset/predictive-app-68f746f58d   Deleted pod: predictive-app-68f746f58d-5hf7v
+50m         Normal    ScalingReplicaSet   deployment/predictive-app              Scaled down replica set predictive-app-68f746f58d from 1 to 0
+23m         Warning   Unhealthy           pod/predictive-app-6958f4b77b-x5lhr    Readiness probe failed: Get "http://10.244.0.9:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+21m         Warning   Unhealthy           pod/predictive-app-6958f4b77b-x5lhr    Liveness probe failed: Get "http://10.244.0.9:8080/health": read tcp 10.244.0.1:43866->10.244.0.9:8080: read: connection reset by peer
+20m         Warning   BackOff             pod/predictive-app-6958f4b77b-x5lhr    Back-off restarting failed container predictive-app in pod predictive-app-6958f4b77b-x5lhr_seminar(47c32b6e-b6b3-47d7-864c-e098a3db4565)
+20m         Normal    Started             pod/predictive-app-6958f4b77b-x5lhr    Container started
+20m         Normal    Created             pod/predictive-app-6958f4b77b-x5lhr    Container created
+20m         Normal    Pulled              pod/predictive-app-6958f4b77b-x5lhr    Container image "predictive-app:v1" already present on machine and can be accessed by the pod

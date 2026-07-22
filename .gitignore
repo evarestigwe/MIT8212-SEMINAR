@@ -1,7 +1,13 @@
+﻿.env
+.venv/
 venv/
 __pycache__/
 *.pyc
-data/training_dataset.csv
-evidence/
-models/*.pkl
+.ipynb_checkpoints/
+kubeconfig
+.kube/
+*.pem
+*.key
+secrets/
 .DS_Store
+Thumbs.db

@@ -1,0 +1,2 @@
+﻿POD                               READY   RESTARTS
+predictive-app-85bb748d98-2h2rj   true    2

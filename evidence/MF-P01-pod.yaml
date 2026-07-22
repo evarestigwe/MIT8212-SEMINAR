@@ -1,0 +1,178 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2026-07-21T20:46:52Z"
+  generateName: predictive-app-6958f4b77b-
+  generation: 1
+  labels:
+    app: predictive-app
+    pod-template-hash: 6958f4b77b
+  name: predictive-app-6958f4b77b-x5lhr
+  namespace: seminar
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: predictive-app-6958f4b77b
+    uid: dd7d78ef-650f-4cdc-8f77-543155a046fc
+  resourceVersion: "52363"
+  uid: 47c32b6e-b6b3-47d7-864c-e098a3db4565
+spec:
+  containers:
+  - env:
+    - name: LEAK_KB_PER_REQUEST
+      value: "128"
+    - name: CPU_WORK_MS
+      value: "10"
+    image: predictive-app:v1
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /health
+        port: 8080
+        scheme: HTTP
+      initialDelaySeconds: 10
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 2
+    name: predictive-app
+    readinessProbe:
+      failureThreshold: 3
+      httpGet:
+        path: /health
+        port: 8080
+        scheme: HTTP
+      initialDelaySeconds: 3
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 1
+    resources:
+      limits:
+        cpu: 500m
+        memory: 64Mi
+      requests:
+        cpu: 100m
+        memory: 32Mi
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-vswf5
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  nodeName: seminar-lab-control-plane
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: kube-api-access-vswf5
+    projected:
+      defaultMode: 420
+      sources:
+      - serviceAccountToken:
+          expirationSeconds: 3607
+          path: token
+      - configMap:
+          items:
+          - key: ca.crt
+            path: ca.crt
+          name: kube-root-ca.crt
+      - downwardAPI:
+          items:
+          - fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+            path: namespace
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2026-07-21T20:46:53Z"
+    observedGeneration: 1
+    status: "True"
+    type: PodReadyToStartContainers
+  - lastProbeTime: null
+    lastTransitionTime: "2026-07-21T20:46:52Z"
+    observedGeneration: 1
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2026-07-21T21:16:09Z"
+    observedGeneration: 1
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2026-07-21T21:16:09Z"
+    observedGeneration: 1
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2026-07-21T20:46:52Z"
+    observedGeneration: 1
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - allocatedResources:
+      cpu: 100m
+      memory: 32Mi
+    containerID: containerd://0a8991ea48512609e9102801323430913e7f1761c14a6d165e1a9f0e7b256054
+    image: docker.io/library/predictive-app:v1
+    imageID: sha256:398ad5785bf9258c088266310f4c962c61675ddc1d6cdc25d901e21b0dd93c13
+    lastState:
+      terminated:
+        containerID: containerd://015a7af56f91f13319eae615990f75422bde7d1daf30f10831bd7a0fe50c6c6a
+        exitCode: 137
+        finishedAt: "2026-07-21T21:15:52Z"
+        reason: OOMKilled
+        startedAt: "2026-07-21T21:10:58Z"
+    name: predictive-app
+    ready: true
+    resources:
+      limits:
+        cpu: 500m
+        memory: 64Mi
+      requests:
+        cpu: 100m
+        memory: 32Mi
+    restartCount: 2
+    started: true
+    state:
+      running:
+        startedAt: "2026-07-21T21:16:03Z"
+    user:
+      linux:
+        gid: 0
+        supplementalGroups:
+        - 0
+        uid: 0
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: kube-api-access-vswf5
+      readOnly: true
+      recursiveReadOnly: Disabled
+  hostIP: 172.18.0.2
+  hostIPs:
+  - ip: 172.18.0.2
+  observedGeneration: 1
+  phase: Running
+  podIP: 10.244.0.9
+  podIPs:
+  - ip: 10.244.0.9
+  qosClass: Burstable
+  startTime: "2026-07-21T20:46:52Z"

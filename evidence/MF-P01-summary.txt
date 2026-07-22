@@ -1,0 +1,4 @@
+﻿Reason: OOMKilled
+Exit code: 137
+Restart count: 2
+Pod name: predictive-app-6958f4b77b-x5lhr

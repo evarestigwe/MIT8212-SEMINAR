@@ -1,0 +1,10 @@
+﻿CPU throttling pilot: CF-P01
+Periods before: 295
+Periods after: 692
+Throttled periods before: 214
+Throttled periods after: 260
+Additional periods: 397
+Additional throttled periods: 46
+Interval throttling ratio: 11.59%
+Additional throttled time: 4303637 microseconds
+Result: CPU throttling confirmed

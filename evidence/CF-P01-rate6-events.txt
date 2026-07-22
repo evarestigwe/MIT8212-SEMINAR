@@ -1,0 +1,29 @@
+﻿LAST SEEN   TYPE      REASON              OBJECT                                 MESSAGE
+10h         Normal    Scheduled           pod/predictive-app-85bb748d98-2h2rj    Successfully assigned seminar/predictive-app-85bb748d98-2h2rj to seminar-lab-control-plane
+10h         Warning   Unhealthy           pod/predictive-app-6c9d86c55-cps9w     Liveness probe failed: Get "http://10.244.0.10:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+10h         Normal    Killing             pod/predictive-app-6c9d86c55-cps9w     Container predictive-app failed liveness probe, will be restarted
+10h         Normal    Pulled              pod/predictive-app-6c9d86c55-cps9w     Container image "predictive-app:v1" already present on machine and can be accessed by the pod
+10h         Normal    Created             pod/predictive-app-6c9d86c55-cps9w     Container created
+10h         Normal    Started             pod/predictive-app-6c9d86c55-cps9w     Container started
+10h         Warning   Unhealthy           pod/predictive-app-6c9d86c55-cps9w     Liveness probe failed: Get "http://10.244.0.10:8080/health": dial tcp 10.244.0.10:8080: connect: connection refused
+10h         Warning   Unhealthy           pod/predictive-app-6c9d86c55-cps9w     Readiness probe failed: Get "http://10.244.0.10:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+10h         Normal    ScalingReplicaSet   deployment/predictive-app              Scaled up replica set predictive-app-85bb748d98 from 0 to 1
+10h         Normal    SuccessfulCreate    replicaset/predictive-app-85bb748d98   Created pod: predictive-app-85bb748d98-2h2rj
+10h         Normal    SuccessfulDelete    replicaset/predictive-app-6c9d86c55    Deleted pod: predictive-app-6c9d86c55-cps9w
+10h         Normal    Killing             pod/predictive-app-6c9d86c55-cps9w     Stopping container predictive-app
+10h         Normal    ScalingReplicaSet   deployment/predictive-app              Scaled down replica set predictive-app-6c9d86c55 from 1 to 0
+10h         Warning   Unhealthy           pod/predictive-app-6c9d86c55-cps9w     Readiness probe failed: Get "http://10.244.0.10:8080/health": dial tcp 10.244.0.10:8080: connect: connection refused
+9h          Warning   Unhealthy           pod/predictive-app-85bb748d98-2h2rj    Liveness probe failed: Get "http://10.244.0.11:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+9h          Normal    Killing             pod/predictive-app-85bb748d98-2h2rj    Container predictive-app failed liveness probe, will be restarted
+9h          Warning   Unhealthy           pod/predictive-app-85bb748d98-2h2rj    Readiness probe failed: Get "http://10.244.0.11:8080/health": read tcp 10.244.0.1:35030->10.244.0.11:8080: read: connection reset by peer
+9h          Normal    Created             pod/predictive-app-85bb748d98-2h2rj    Container created
+9h          Normal    Pulled              pod/predictive-app-85bb748d98-2h2rj    Container image "predictive-app:v1" already present on machine and can be accessed by the pod
+9h          Normal    Started             pod/predictive-app-85bb748d98-2h2rj    Container started
+9h          Warning   Unhealthy           pod/predictive-app-85bb748d98-2h2rj    Liveness probe failed: Get "http://10.244.0.11:8080/health": dial tcp 10.244.0.11:8080: connect: connection refused
+9h          Warning   Unhealthy           pod/predictive-app-85bb748d98-2h2rj    Readiness probe failed: Get "http://10.244.0.11:8080/health": dial tcp 10.244.0.11:8080: connect: connection refused
+9h          Warning   Unhealthy           pod/predictive-app-85bb748d98-2h2rj    Readiness probe failed: Get "http://10.244.0.11:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+42m         Normal    SandboxChanged      pod/predictive-app-85bb748d98-2h2rj    Pod sandbox changed, it will be killed and re-created.
+42m         Normal    Created             pod/predictive-app-85bb748d98-2h2rj    Container created
+42m         Normal    Pulled              pod/predictive-app-85bb748d98-2h2rj    Container image "predictive-app:v1" already present on machine and can be accessed by the pod
+41m         Normal    Started             pod/predictive-app-85bb748d98-2h2rj    Container started
+41m         Warning   Unhealthy           pod/predictive-app-85bb748d98-2h2rj    Readiness probe failed: Get "http://10.244.0.7:8080/health": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
