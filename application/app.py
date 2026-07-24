@@ -1,6 +1,11 @@
 import math
 import os
 import time
+import math
+import os
+import signal
+import threading
+import time
 
 from flask import Flask, jsonify
 
@@ -11,6 +16,21 @@ LEAK_KB_PER_REQUEST = int(
     os.getenv("LEAK_KB_PER_REQUEST", "0")
 )
 CPU_WORK_MS = int(os.getenv("CPU_WORK_MS", "10"))
+CRASH_AFTER_SECONDS = int(
+    os.getenv("CRASH_AFTER_SECONDS", "0")
+)
+
+
+def terminate_container():
+    time.sleep(CRASH_AFTER_SECONDS)
+    os.kill(1, signal.SIGTERM)
+
+
+if CRASH_AFTER_SECONDS > 0:
+    threading.Thread(
+        target=terminate_container,
+        daemon=True,
+    ).start()
 
 
 @app.get("/health")
@@ -50,4 +70,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=8080,
         threaded=True,
+
     )

@@ -1,0 +1,39 @@
+timestamp_utc,experiment_id,label,namespace,pod_name,cpu_millicores,memory_mib,restart_count,phase,ready,node,collection_error
+2026-07-23T17:11:43.082934+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,1.465,34.168,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:11:48.662160+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,1.465,34.168,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:11:54.272557+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.823,34.176,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:11:59.739301+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.823,34.176,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:05.218127+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.823,34.176,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:10.877616+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.679,34.164,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:18.925826+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.679,34.164,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:25.277927+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.831,34.164,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:32.638292+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.831,34.164,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:38.587235+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,90.539,34.754,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:44.724460+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,90.539,34.754,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:50.535735+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,90.539,34.754,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:12:58.389146+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,177.424,35.02,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:13:06.162719+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,187.643,35.02,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:13:15.227210+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,187.643,35.02,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:13:24.530126+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,67.148,34.453,3,Running,True,seminar-lab-control-plane,
+2026-07-23T17:13:38.121663+00:00,NODE-01,node_disruption,seminar,,,,,,,,Error from server (ServiceUnavailable): the server is currently unable to handle the request
+2026-07-23T17:13:46.177789+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: EOF
+2026-07-23T17:13:53.293204+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:13:58.598895+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:04.056342+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:09.386719+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:14.735597+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:20.104864+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:25.592264+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:31.083517+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:38.557772+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:44.108544+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:49.631282+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:14:55.419533+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:00.836572+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:06.319470+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:11.769856+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:17.338896+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:22.670138+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:28.227185+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:34.022590+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.
+2026-07-23T17:15:39.811395+00:00,NODE-01,node_disruption,seminar,,,,,,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.

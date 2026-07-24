@@ -1,0 +1,5 @@
+timestamp_utc,experiment_id,label,namespace,pod_name,cpu_millicores,memory_mib,restart_count,phase,ready,node,collection_error
+2026-07-22T14:29:48.550123+00:00,TEST-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.646,32.211,0,Running,True,seminar-lab-control-plane,
+2026-07-22T14:29:54.048180+00:00,TEST-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.646,32.211,0,Running,True,seminar-lab-control-plane,
+2026-07-22T14:29:59.452561+00:00,TEST-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.646,32.211,0,Running,True,seminar-lab-control-plane,
+2026-07-22T14:30:04.876713+00:00,TEST-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.751,32.453,0,Running,True,seminar-lab-control-plane,

@@ -1,0 +1,79 @@
+timestamp_utc,experiment_id,label,namespace,pod_name,cpu_millicores,memory_mib,restart_count,phase,ready,node,collection_error
+2026-07-22T18:19:51.279073+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.736,32.152,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:19:56.810527+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.736,32.152,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:02.274049+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.736,32.152,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:08.001750+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.753,32.152,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:13.407356+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.753,32.152,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:18.863727+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.87,32.398,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:24.298413+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.87,32.398,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:29.749444+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.87,32.398,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:35.136168+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.656,32.148,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:40.592395+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.656,32.148,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:46.066510+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.656,32.148,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:51.635337+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.889,32.648,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:20:57.052092+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.889,32.648,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:02.977729+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.851,32.156,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:08.991134+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.851,32.156,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:14.535795+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.851,32.156,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:21.114078+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.818,32.152,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:27.032021+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:21:32.681393+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,47.75,32.383,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:40.440464+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,47.75,32.383,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:46.870093+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,47.75,32.383,0,Running,True,seminar-lab-control-plane,
+2026-07-22T18:21:53.318873+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,1.167,32.141,1,Running,True,seminar-lab-control-plane,
+2026-07-22T18:22:03.203502+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,133.848,32.359,1,Running,True,seminar-lab-control-plane,
+2026-07-22T18:22:11.259343+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,133.848,32.359,1,Running,True,seminar-lab-control-plane,
+2026-07-22T18:22:17.201482+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,133.848,32.359,1,Running,True,seminar-lab-control-plane,
+2026-07-22T18:22:22.959582+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.769,32.363,1,Running,True,seminar-lab-control-plane,
+2026-07-22T18:22:28.740867+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.769,32.363,1,Running,False,seminar-lab-control-plane,
+2026-07-22T18:22:34.437867+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:22:40.162403+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:22:45.886317+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:22:52.086837+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,105.91,32.137,2,Running,True,seminar-lab-control-plane,
+2026-07-22T18:22:58.498887+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,105.91,32.137,2,Running,True,seminar-lab-control-plane,
+2026-07-22T18:23:05.232156+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.812,32.148,2,Running,True,seminar-lab-control-plane,
+2026-07-22T18:23:11.004149+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.812,32.148,2,Running,False,seminar-lab-control-plane,
+2026-07-22T18:23:18.362345+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:23:24.436635+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:23:30.452701+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:23:36.668360+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:23:43.726907+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:23:50.377866+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,53.731,32.367,3,Running,True,seminar-lab-control-plane,
+2026-07-22T18:23:56.611603+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,53.731,32.367,3,Running,True,seminar-lab-control-plane,
+2026-07-22T18:24:03.267006+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.667,32.125,3,Running,True,seminar-lab-control-plane,
+2026-07-22T18:24:09.013917+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.667,32.125,3,Running,False,seminar-lab-control-plane,
+2026-07-22T18:24:15.240496+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.667,32.125,3,Running,False,seminar-lab-control-plane,
+2026-07-22T18:24:21.248734+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:24:27.339924+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:24:33.118785+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:24:38.850146+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:24:44.657470+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:24:50.314645+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:24:57.674513+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:03.910050+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:12.307607+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:19.154699+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,99.029,32.449,4,Running,True,seminar-lab-control-plane,
+2026-07-22T18:25:27.929974+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,99.029,32.449,4,Running,True,seminar-lab-control-plane,
+2026-07-22T18:25:33.915847+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:39.711824+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:46.147537+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:52.106771+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:25:58.161500+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:03.752322+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:09.411877+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:16.132965+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:21.864256+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:27.677875+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:33.898822+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:40.167097+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:46.435494+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:26:53.304936+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:27:00.745437+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:27:06.656947+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,240.095,32.102,5,Running,True,seminar-lab-control-plane,
+2026-07-22T18:27:12.433667+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,240.095,32.102,5,Running,True,seminar-lab-control-plane,
+2026-07-22T18:27:18.330633+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,202.378,32.102,5,Running,True,seminar-lab-control-plane,
+2026-07-22T18:27:24.522986+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,202.378,32.102,5,Running,True,seminar-lab-control-plane,
+2026-07-22T18:27:30.322090+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,202.378,32.102,5,Running,False,seminar-lab-control-plane,
+2026-07-22T18:27:36.067317+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:27:41.891885+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
+2026-07-22T18:27:47.453973+00:00,CRASH-01,crash_loop,seminar,,,,,,,,No matching pod metrics were returned
