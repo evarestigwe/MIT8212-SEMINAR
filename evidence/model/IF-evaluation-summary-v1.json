@@ -1,0 +1,174 @@
+{
+  "model_version": "1.0",
+  "model_type": "IsolationForest",
+  "purpose": "Detect anomalous Kubernetes resource behaviour using a model trained only on healthy observations",
+  "created_with": {
+    "python": "3.14.0",
+    "pandas": "3.0.3",
+    "numpy": "2.5.1",
+    "scikit_learn": "1.9.0"
+  },
+  "dataset": {
+    "file": "data\\time_series\\processed\\TS-predictive-dataset-v1.csv",
+    "sha256": "22FE625E22B702A63DF57A10DE1883FD4CEE79E7F5BE0FF5C3EAFC2205A8BB15",
+    "total_rows": 266
+  },
+  "experiment_design": {
+    "healthy_training": "TS-HB-01",
+    "healthy_holdout": "TS-HB-02",
+    "failure_evaluation": "TS-MEM-01",
+    "training_rows": 90,
+    "healthy_holdout_rows": 90,
+    "failure_evaluation_rows": 86
+  },
+  "target_usage": {
+    "used_for_training": false,
+    "evaluation_reference": "failure_within_60m",
+    "explanation": "Failure labels and time-to-failure values are used only after inference for evaluation and are not model inputs."
+  },
+  "feature_count": 42,
+  "feature_columns": [
+    "cpu_millicores",
+    "memory_mib",
+    "ready_numeric",
+    "cpu_millicores_roll_5m_mean",
+    "cpu_millicores_roll_5m_std",
+    "cpu_millicores_roll_5m_min",
+    "cpu_millicores_roll_5m_max",
+    "cpu_millicores_roll_5m_range",
+    "cpu_millicores_roll_5m_delta",
+    "cpu_millicores_roll_15m_mean",
+    "cpu_millicores_roll_15m_std",
+    "cpu_millicores_roll_15m_min",
+    "cpu_millicores_roll_15m_max",
+    "cpu_millicores_roll_15m_range",
+    "cpu_millicores_roll_15m_delta",
+    "cpu_millicores_roll_30m_mean",
+    "cpu_millicores_roll_30m_std",
+    "cpu_millicores_roll_30m_min",
+    "cpu_millicores_roll_30m_max",
+    "cpu_millicores_roll_30m_range",
+    "cpu_millicores_roll_30m_delta",
+    "memory_mib_roll_5m_mean",
+    "memory_mib_roll_5m_std",
+    "memory_mib_roll_5m_min",
+    "memory_mib_roll_5m_max",
+    "memory_mib_roll_5m_range",
+    "memory_mib_roll_5m_delta",
+    "memory_mib_roll_15m_mean",
+    "memory_mib_roll_15m_std",
+    "memory_mib_roll_15m_min",
+    "memory_mib_roll_15m_max",
+    "memory_mib_roll_15m_range",
+    "memory_mib_roll_15m_delta",
+    "memory_mib_roll_30m_mean",
+    "memory_mib_roll_30m_std",
+    "memory_mib_roll_30m_min",
+    "memory_mib_roll_30m_max",
+    "memory_mib_roll_30m_range",
+    "memory_mib_roll_30m_delta",
+    "cpu_change_1m",
+    "memory_change_1m",
+    "memory_growth_rate_mib_per_min"
+  ],
+  "excluded_columns": [
+    "timestamp_utc",
+    "experiment_id",
+    "label",
+    "namespace",
+    "pod_name",
+    "restart_count",
+    "phase",
+    "ready",
+    "node",
+    "collection_error",
+    "elapsed_seconds",
+    "failure_timestamp_utc",
+    "minutes_to_failure",
+    "failure_within_5m",
+    "failure_within_15m",
+    "failure_within_30m",
+    "failure_within_60m"
+  ],
+  "hyperparameters": {
+    "n_estimators": 500,
+    "max_samples": "auto",
+    "contamination": 0.05,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "evaluation_rows": 176,
+  "evaluation_target_distribution": {
+    "normal": 117,
+    "failure_within_60m": 59
+  },
+  "metrics": {
+    "accuracy": 0.8068181818181818,
+    "balanced_accuracy": 0.8547008547008548,
+    "precision": 0.6344086021505376,
+    "recall": 1.0,
+    "f1_score": 0.7763157894736842,
+    "roc_auc": 0.8867159206142257
+  },
+  "confusion_matrix": {
+    "true_negative": 83,
+    "false_positive": 34,
+    "false_negative": 0,
+    "true_positive": 59
+  },
+  "operational_metrics": {
+    "healthy_holdout_false_positive_rate": 0.16666666666666666,
+    "failure_experiment_anomaly_rate": 0.9069767441860465,
+    "failure_window_detection_rate": 1.0,
+    "first_detection_timestamp_utc": "2026-07-24T14:19:18.538789+00:00",
+    "first_detection_lead_minutes": 78.7849097
+  },
+  "experiment_score_summary": [
+    {
+      "experiment_id": "TS-HB-01",
+      "dataset_role": "healthy_training",
+      "rows": 90,
+      "actual_positive_60m": 0,
+      "predicted_anomalies": 5,
+      "anomaly_rate": 0.05555555555555555,
+      "anomaly_score_min": -0.19150108735219856,
+      "anomaly_score_mean": -0.11375430390475891,
+      "anomaly_score_max": 0.0814164977923364
+    },
+    {
+      "experiment_id": "TS-HB-02",
+      "dataset_role": "healthy_holdout",
+      "rows": 90,
+      "actual_positive_60m": 0,
+      "predicted_anomalies": 15,
+      "anomaly_rate": 0.16666666666666666,
+      "anomaly_score_min": -0.0519611812469164,
+      "anomaly_score_mean": -0.023823524180691724,
+      "anomaly_score_max": 0.04445282963561725
+    },
+    {
+      "experiment_id": "TS-MEM-01",
+      "dataset_role": "failure_evaluation",
+      "rows": 86,
+      "actual_positive_60m": 59,
+      "predicted_anomalies": 78,
+      "anomaly_rate": 0.9069767441860465,
+      "anomaly_score_min": -0.08284421772903022,
+      "anomaly_score_mean": 0.06657986893173545,
+      "anomaly_score_max": 0.107973054796346
+    }
+  ],
+  "limitations": [
+    "The model was trained on only one healthy controlled experiment.",
+    "The healthy holdout contains the same heartbeat workload type as training.",
+    "Only one controlled memory-failure experiment is available.",
+    "The 60-minute failure label is used only as an evaluation reference and is not a complete definition of every possible operational anomaly.",
+    "Additional healthy workloads and independent failure runs are required before production generalization can be claimed."
+  ],
+  "artifacts": {
+    "model": "model\\artifacts\\isolation-forest-v1.joblib",
+    "predictions": "evidence\\model\\IF-test-predictions-v1.csv",
+    "score_summary": "evidence\\model\\IF-score-summary-v1.csv",
+    "classification_report": "evidence\\model\\IF-classification-report-v1.txt"
+  }
+}

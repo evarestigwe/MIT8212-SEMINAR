@@ -1,0 +1,6 @@
+timestamp_utc,experiment_id,label,namespace,pod_name,cpu_millicores,memory_mib,restart_count,phase,ready,node,collection_error
+2026-07-24T14:02:59.858066+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-58dbcdf866-dmldl,0.817,32.598,0,Running,True,seminar-lab-control-plane,
+2026-07-24T14:04:00.347721+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-58dbcdf866-dmldl,0.683,32.113,0,Running,True,seminar-lab-control-plane,
+2026-07-24T14:05:00.795955+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-58dbcdf866-dmldl,0.808,32.121,0,Running,True,seminar-lab-control-plane,
+2026-07-24T14:06:01.357667+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-58dbcdf866-dmldl,0.784,32.133,0,Running,True,seminar-lab-control-plane,
+2026-07-24T14:07:02.132124+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-58dbcdf866-dmldl,16.368,33.137,0,Running,True,seminar-lab-control-plane,

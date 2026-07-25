@@ -1,0 +1,8 @@
+                       precision    recall  f1-score   support
+
+no_failure_within_60m       1.00      1.00      1.00        56
+   failure_within_60m       1.00      1.00      1.00        26
+
+             accuracy                           1.00        82
+            macro avg       1.00      1.00      1.00        82
+         weighted avg       1.00      1.00      1.00        82

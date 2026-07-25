@@ -1,0 +1,188 @@
+{
+  "model_version": "1.0",
+  "model_type": "RandomForestClassifier",
+  "purpose": "Predict Kubernetes failure within 60 minutes",
+  "created_with": {
+    "python": "3.14.0",
+    "pandas": "3.0.3",
+    "numpy": "2.5.1",
+    "scikit_learn": "1.9.0"
+  },
+  "dataset": {
+    "file": "data\\time_series\\processed\\TS-predictive-dataset-v1.csv",
+    "sha256": "22FE625E22B702A63DF57A10DE1883FD4CEE79E7F5BE0FF5C3EAFC2205A8BB15",
+    "total_rows": 266
+  },
+  "split_strategy": "Chronological 70/30 split within each experiment",
+  "train_rows": 184,
+  "test_rows": 82,
+  "train_rows_by_experiment": {
+    "TS-HB-01": 62,
+    "TS-HB-02": 62,
+    "TS-MEM-01": 60
+  },
+  "test_rows_by_experiment": {
+    "TS-HB-01": 28,
+    "TS-HB-02": 28,
+    "TS-MEM-01": 26
+  },
+  "train_target_distribution": {
+    "negative": 151,
+    "positive": 33
+  },
+  "test_target_distribution": {
+    "negative": 56,
+    "positive": 26
+  },
+  "target_column": "failure_within_60m",
+  "classification_threshold": 0.5,
+  "feature_count": 42,
+  "feature_columns": [
+    "cpu_millicores",
+    "memory_mib",
+    "ready_numeric",
+    "cpu_millicores_roll_5m_mean",
+    "cpu_millicores_roll_5m_std",
+    "cpu_millicores_roll_5m_min",
+    "cpu_millicores_roll_5m_max",
+    "cpu_millicores_roll_5m_range",
+    "cpu_millicores_roll_5m_delta",
+    "cpu_millicores_roll_15m_mean",
+    "cpu_millicores_roll_15m_std",
+    "cpu_millicores_roll_15m_min",
+    "cpu_millicores_roll_15m_max",
+    "cpu_millicores_roll_15m_range",
+    "cpu_millicores_roll_15m_delta",
+    "cpu_millicores_roll_30m_mean",
+    "cpu_millicores_roll_30m_std",
+    "cpu_millicores_roll_30m_min",
+    "cpu_millicores_roll_30m_max",
+    "cpu_millicores_roll_30m_range",
+    "cpu_millicores_roll_30m_delta",
+    "memory_mib_roll_5m_mean",
+    "memory_mib_roll_5m_std",
+    "memory_mib_roll_5m_min",
+    "memory_mib_roll_5m_max",
+    "memory_mib_roll_5m_range",
+    "memory_mib_roll_5m_delta",
+    "memory_mib_roll_15m_mean",
+    "memory_mib_roll_15m_std",
+    "memory_mib_roll_15m_min",
+    "memory_mib_roll_15m_max",
+    "memory_mib_roll_15m_range",
+    "memory_mib_roll_15m_delta",
+    "memory_mib_roll_30m_mean",
+    "memory_mib_roll_30m_std",
+    "memory_mib_roll_30m_min",
+    "memory_mib_roll_30m_max",
+    "memory_mib_roll_30m_range",
+    "memory_mib_roll_30m_delta",
+    "cpu_change_1m",
+    "memory_change_1m",
+    "memory_growth_rate_mib_per_min"
+  ],
+  "excluded_columns": [
+    "timestamp_utc",
+    "experiment_id",
+    "label",
+    "namespace",
+    "pod_name",
+    "restart_count",
+    "phase",
+    "ready",
+    "node",
+    "collection_error",
+    "elapsed_seconds",
+    "failure_timestamp_utc",
+    "minutes_to_failure",
+    "failure_within_5m",
+    "failure_within_15m",
+    "failure_within_30m"
+  ],
+  "hyperparameters": {
+    "n_estimators": 500,
+    "max_depth": 8,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "confusion_matrix": {
+    "true_negative": 56,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_positive": 26
+  },
+  "top_10_features": [
+    {
+      "rank": 1,
+      "feature": "memory_mib",
+      "importance": 0.10982980188047334
+    },
+    {
+      "rank": 2,
+      "feature": "memory_mib_roll_30m_max",
+      "importance": 0.10366990878042716
+    },
+    {
+      "rank": 3,
+      "feature": "memory_mib_roll_15m_min",
+      "importance": 0.09095315072443606
+    },
+    {
+      "rank": 4,
+      "feature": "memory_mib_roll_30m_mean",
+      "importance": 0.07828470380194519
+    },
+    {
+      "rank": 5,
+      "feature": "memory_mib_roll_30m_std",
+      "importance": 0.07236518705060671
+    },
+    {
+      "rank": 6,
+      "feature": "memory_mib_roll_30m_delta",
+      "importance": 0.07113836281365693
+    },
+    {
+      "rank": 7,
+      "feature": "memory_mib_roll_5m_mean",
+      "importance": 0.07012637362637364
+    },
+    {
+      "rank": 8,
+      "feature": "memory_mib_roll_15m_max",
+      "importance": 0.06808494447407995
+    },
+    {
+      "rank": 9,
+      "feature": "memory_mib_roll_15m_mean",
+      "importance": 0.06716479200136778
+    },
+    {
+      "rank": 10,
+      "feature": "memory_mib_roll_5m_min",
+      "importance": 0.06623652120595805
+    }
+  ],
+  "limitations": [
+    "The dataset contains only three controlled experiments.",
+    "Only one experiment contains an observed memory-failure event.",
+    "Test results are preliminary and do not establish production generalization.",
+    "Additional independent failure runs are required for stronger external validation."
+  ],
+  "artifacts": {
+    "model": "model\\artifacts\\random-forest-60m-v1.joblib",
+    "predictions": "evidence\\model\\RF-60m-test-predictions-v1.csv",
+    "feature_importance": "evidence\\model\\RF-60m-feature-importance-v1.csv",
+    "classification_report": "evidence\\model\\RF-60m-classification-report-v1.txt"
+  }
+}

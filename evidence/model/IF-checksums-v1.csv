@@ -1,0 +1,7 @@
+Algorithm,Hash,Path,Role
+SHA256,22FE625E22B702A63DF57A10DE1883FD4CEE79E7F5BE0FF5C3EAFC2205A8BB15,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\data\time_series\processed\TS-predictive-dataset-v1.csv,input
+SHA256,787EB55A5E334EBB2D76FAC8B4D6A71A34F25197B3A84F04F477DD93D0EB023D,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\model\artifacts\isolation-forest-v1.joblib,generated
+SHA256,D590E381376C32DF4BEA87890ABD41CB23D4B55568E9CF535857821565F61E3C,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\IF-test-predictions-v1.csv,generated
+SHA256,DB04FFFC6A05D1F7C117F71E3D2EFB5728C5893584FE021C7E8E0A3BE1D88F1C,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\IF-score-summary-v1.csv,generated
+SHA256,8CCFAC3DC618B4D792CB4642BA9DFBF1BF9250522861DD41A46A183B32985A51,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\IF-classification-report-v1.txt,generated
+SHA256,2FCBE39D9C3E6E15601A81D581FBE21459EC65774912CAAE6E91BF59A5F051DB,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\IF-evaluation-summary-v1.json,generated

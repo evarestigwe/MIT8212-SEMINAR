@@ -1,0 +1,11 @@
+                 precision    recall  f1-score   support
+
+     cpu_stress       0.63      0.52      0.57        66
+     crash_loop       0.75      0.59      0.66        78
+        healthy       0.69      0.67      0.68        51
+memory_pressure       0.56      0.75      0.64        83
+node_disruption       0.00      0.00      0.00         0
+
+       accuracy                           0.63       278
+      macro avg       0.53      0.50      0.51       278
+   weighted avg       0.66      0.63      0.64       278

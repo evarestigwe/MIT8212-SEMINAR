@@ -1,0 +1,7 @@
+Algorithm,Hash,Path,Role
+SHA256,22FE625E22B702A63DF57A10DE1883FD4CEE79E7F5BE0FF5C3EAFC2205A8BB15,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\data\time_series\processed\TS-predictive-dataset-v1.csv,input
+SHA256,2928A0431C9821EA3A282CCD961C8489F0F783B4F42B78C4C5A7F66AE0214D94,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\model\artifacts\random-forest-60m-v1.joblib,generated
+SHA256,440D274098FFBCCD3648D4170B650FDFE22EF3CEC4F6EC54BD519B33BE474FDE,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\RF-60m-test-predictions-v1.csv,generated
+SHA256,27CEAF8024919D580F2C99C2D3C7E04317A9F27AE5CA2DD9BDAA55872E4E1CE5,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\RF-60m-feature-importance-v1.csv,generated
+SHA256,DFCEA1F2DDEBAB45837535523617036973116D415B92B43E1683DB100759BC40,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\RF-60m-classification-report-v1.txt,generated
+SHA256,67E0833A90ED5F009515105834292DBD7511AE58ABF33F8085D97C6EFD8A2843,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\model\RF-60m-evaluation-summary-v1.json,generated

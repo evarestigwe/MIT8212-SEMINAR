@@ -1,0 +1,3 @@
+timestamp_utc,experiment_id,label,namespace,pod_name,cpu_millicores,memory_mib,restart_count,phase,ready,node,collection_error
+2026-07-24T13:56:27.436854+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-787474456d-kghg5,0.75,32.402,0,Running,True,seminar-lab-control-plane,
+2026-07-24T13:57:27.855437+00:00,TS-MEM-01,memory_failure,seminar,predictive-app-787474456d-kghg5,0.722,32.652,0,Running,True,seminar-lab-control-plane,

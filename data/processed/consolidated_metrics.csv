@@ -1,0 +1,826 @@
+timestamp_utc,experiment_id,label,namespace,pod_name,cpu_millicores,memory_mib,restart_count,phase,ready,node,collection_error,source_file,ready_numeric,pod_present,collection_error_present
+2026-07-22T15:21:31.850337+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.825,32.398,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:21:37.297642+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.823,32.398,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:21:42.867619+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.823,32.398,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:21:49.903689+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,3.81,32.91,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:21:55.579933+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,3.81,32.91,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:01.336563+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,3.81,32.91,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:07.098246+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.511,32.902,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:14.040743+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.511,32.902,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:19.634011+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.569,32.414,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:25.249082+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.569,32.414,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:30.825462+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.569,32.414,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:36.733710+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.569,32.414,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:42.357900+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.569,32.414,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:48.117167+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.644,33.16,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:53.807474+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.644,33.16,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:22:59.389295+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.644,33.16,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:06.312043+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,34.669,32.742,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:11.957165+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,34.669,32.742,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:17.796318+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.476,32.988,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:23.633010+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.476,32.988,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:29.185749+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.476,32.988,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:35.134142+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.216,32.738,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:40.736070+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.216,32.738,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:46.887054+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.216,32.738,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:52.816902+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.812,32.734,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:23:58.572379+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.812,32.734,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:04.195608+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.892,32.742,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:09.822679+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.892,32.742,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:16.854385+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.892,32.742,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:22.561783+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.302,32.746,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:28.340253+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.302,32.746,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:35.133069+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.027,32.984,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:40.739659+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.027,32.984,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:46.401641+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.027,32.984,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:52.123101+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.89,33.234,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:24:58.261378+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.89,33.234,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:06.362944+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.366,32.992,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:12.048727+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.366,32.992,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:19.528278+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.01,32.984,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:25.205948+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.01,32.984,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:31.209087+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,35.01,32.984,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:36.852679+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,38.854,32.992,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:42.435958+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,38.854,32.992,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:48.837293+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.756,32.754,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:25:54.691696+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.756,32.754,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:26:00.277707+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.756,32.754,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:26:06.036592+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.756,32.754,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:26:11.739782+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.756,32.754,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:26:17.856140+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.51,32.988,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:26:24.824654+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.51,32.988,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:26:31.202086+00:00,CPU-01,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.51,32.988,0.0,Running,True,seminar-lab-control-plane,,CPU-01_metrics.csv,1,1,0
+2026-07-22T15:54:00.181657+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.887,32.934,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:54:05.669659+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.748,32.684,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:54:12.028285+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.748,32.684,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:54:18.146397+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.823,32.68,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:54:32.339102+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,21.596,33.203,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:54:49.234984+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,67.493,33.453,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:54:59.019172+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,67.493,33.453,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:04.712050+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,36.927,32.949,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:10.316550+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,36.927,32.949,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:16.747175+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,36.927,32.949,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:22.755282+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,34.417,32.957,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:29.906055+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,34.417,32.957,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:35.906585+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,51.408,32.699,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:41.686823+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,51.408,32.699,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:47.218865+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,37.586,33.199,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:53.232784+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,37.586,33.199,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:55:59.570996+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,37.586,33.199,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:05.475275+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.474,33.441,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:11.162712+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.474,33.441,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:16.885470+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.474,33.441,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:22.618985+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,380.827,33.305,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:28.267485+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,380.827,33.305,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:34.230620+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.199,33.793,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:39.973632+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.199,33.793,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:46.864115+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.199,33.793,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:52.562938+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,497.558,33.793,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:56:58.191645+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,497.558,33.793,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:04.114563+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.93,35.805,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:09.971636+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.93,35.805,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:15.680484+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.93,35.805,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:21.291269+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.432,35.309,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:27.017444+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.432,35.309,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:32.695537+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.569,35.312,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:38.796790+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.569,35.312,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:44.611004+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.569,35.312,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:50.379356+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.523,35.32,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:57:56.165380+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.523,35.32,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:01.944392+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.523,35.32,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:07.599897+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.924,35.551,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:13.737413+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.924,35.551,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:19.466019+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.832,35.816,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:25.149310+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.832,35.816,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:30.879243+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.832,35.816,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:36.543522+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.552,35.555,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:42.434131+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.552,35.555,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:49.475955+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,503.112,35.555,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T15:58:55.170554+00:00,CPU-02,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,503.112,35.555,0.0,Running,True,seminar-lab-control-plane,,CPU-02_metrics.csv,1,1,0
+2026-07-22T16:11:15.764832+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.787,34.441,0.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:11:21.208053+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.823,34.445,0.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:11:26.707453+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.823,34.445,0.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:11:32.094001+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.823,34.445,0.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:11:37.653667+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.751,34.445,0.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:30:51.497443+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.677,37.121,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:30:57.175242+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.677,37.121,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:02.669110+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.677,37.121,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:08.121125+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.837,37.117,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:13.584976+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.837,37.117,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:20.154770+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.73,37.363,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:25.863558+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.73,37.363,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:32.722836+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,0.73,37.363,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:38.808240+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,27.173,37.656,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:44.752459+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,27.173,37.656,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:50.397601+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,37.538,37.664,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:31:56.257249+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,37.538,37.664,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:02.478550+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,37.538,37.664,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:08.376745+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.931,37.414,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:14.201091+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,32.931,37.414,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:20.181093+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,33.625,37.418,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:25.787030+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,33.625,37.418,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:31.573289+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,33.625,37.418,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:37.359437+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.189,37.914,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:43.810255+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,31.189,37.914,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:50.187635+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.429,37.918,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:32:56.067676+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.429,37.918,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:02.253864+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.429,37.918,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:08.206097+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,459.007,38.543,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:13.929948+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,459.007,38.543,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:19.704778+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.492,38.055,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:25.859314+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.492,38.055,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:31.677242+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.492,38.055,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:37.337306+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.7,38.293,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:43.078061+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.7,38.293,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:48.890868+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.966,38.059,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:33:54.833940+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.966,38.059,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:00.742262+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,498.966,38.059,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:06.574533+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.954,38.371,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:12.255635+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.954,38.371,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:17.984292+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.954,38.371,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:23.825639+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.009,38.129,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:29.788342+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,501.009,38.129,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:35.696000+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.283,38.375,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:41.805088+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.283,38.375,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:47.553459+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.283,38.375,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:53.518244+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.021,38.621,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:34:59.221089+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.021,38.621,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:04.872665+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.021,38.621,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:10.667766+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.021,38.621,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:17.597281+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.021,38.621,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:23.850324+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.156,38.125,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:31.294785+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,500.156,38.125,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:37.053490+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,495.835,38.133,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:42.786280+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,495.835,38.133,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:48.645867+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.243,38.383,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:54.282690+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.243,38.383,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:35:59.849834+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,499.243,38.383,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:06.094507+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,240.725,39.27,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:12.286242+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,240.725,39.27,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:18.341482+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.458,39.516,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:24.679378+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.458,39.516,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:30.387880+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.458,39.516,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:36.077800+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.854,39.277,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:42.272832+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.854,39.277,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T16:36:48.189500+00:00,CPU-03,cpu_stress,seminar,predictive-app-7d999b6db7-247zj,30.854,39.277,1.0,Running,True,seminar-lab-control-plane,,CPU-03_metrics.csv,1,1,0
+2026-07-22T18:19:51.279073+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.736,32.152,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:19:56.810527+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.736,32.152,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:02.274049+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.736,32.152,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:08.001750+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.753,32.152,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:13.407356+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.753,32.152,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:18.863727+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.87,32.398,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:24.298413+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.87,32.398,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:29.749444+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.87,32.398,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:35.136168+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.656,32.148,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:40.592395+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.656,32.148,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:46.066510+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.656,32.148,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:51.635337+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.889,32.648,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:20:57.052092+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.889,32.648,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:02.977729+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.851,32.156,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:08.991134+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.851,32.156,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:14.535795+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.851,32.156,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:21.114078+00:00,CRASH-01,crash_loop,seminar,predictive-app-788cd796db-gvr46,0.818,32.152,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:27.032021+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:21:32.681393+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,47.75,32.383,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:40.440464+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,47.75,32.383,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:46.870093+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,47.75,32.383,0.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:21:53.318873+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,1.167,32.141,1.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:22:03.203502+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,133.848,32.359,1.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:22:11.259343+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,133.848,32.359,1.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:22:17.201482+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,133.848,32.359,1.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:22:22.959582+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.769,32.363,1.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:22:28.740867+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.769,32.363,1.0,Running,False,seminar-lab-control-plane,,CRASH-01_metrics.csv,0,1,0
+2026-07-22T18:22:34.437867+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:22:40.162403+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:22:45.886317+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:22:52.086837+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,105.91,32.137,2.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:22:58.498887+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,105.91,32.137,2.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:23:05.232156+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.812,32.148,2.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:23:11.004149+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.812,32.148,2.0,Running,False,seminar-lab-control-plane,,CRASH-01_metrics.csv,0,1,0
+2026-07-22T18:23:18.362345+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:23:24.436635+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:23:30.452701+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:23:36.668360+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:23:43.726907+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:23:50.377866+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,53.731,32.367,3.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:23:56.611603+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,53.731,32.367,3.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:24:03.267006+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.667,32.125,3.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:24:09.013917+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.667,32.125,3.0,Running,False,seminar-lab-control-plane,,CRASH-01_metrics.csv,0,1,0
+2026-07-22T18:24:15.240496+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,0.667,32.125,3.0,Running,False,seminar-lab-control-plane,,CRASH-01_metrics.csv,0,1,0
+2026-07-22T18:24:21.248734+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:24:27.339924+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:24:33.118785+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:24:38.850146+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:24:44.657470+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:24:50.314645+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:24:57.674513+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:03.910050+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:12.307607+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:19.154699+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,99.029,32.449,4.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:25:27.929974+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,99.029,32.449,4.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:25:33.915847+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:39.711824+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:46.147537+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:52.106771+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:25:58.161500+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:03.752322+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:09.411877+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:16.132965+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:21.864256+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:27.677875+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:33.898822+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:40.167097+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:46.435494+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:26:53.304936+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:27:00.745437+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:27:06.656947+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,240.095,32.102,5.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:27:12.433667+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,240.095,32.102,5.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:27:18.330633+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,202.378,32.102,5.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:27:24.522986+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,202.378,32.102,5.0,Running,True,seminar-lab-control-plane,,CRASH-01_metrics.csv,1,1,0
+2026-07-22T18:27:30.322090+00:00,CRASH-01,crash_loop,seminar,predictive-app-57d7469db5-wgmn6,202.378,32.102,5.0,Running,False,seminar-lab-control-plane,,CRASH-01_metrics.csv,0,1,0
+2026-07-22T18:27:36.067317+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:27:41.891885+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:27:47.453973+00:00,CRASH-01,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-01_metrics.csv,0,0,1
+2026-07-22T18:39:14.894400+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.703,32.617,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:20.323469+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.726,32.121,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:25.841261+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.726,32.121,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:31.224194+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.726,32.121,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:36.677939+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.668,32.121,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:42.091388+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.668,32.121,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:47.863599+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.668,32.121,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:53.352454+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.851,32.129,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:39:58.779249+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.851,32.129,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:04.203352+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.851,32.129,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:09.627802+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.851,32.129,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:15.104504+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.851,32.129,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:20.550944+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.772,32.625,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:25.958803+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.772,32.625,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:31.325868+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.772,32.625,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:36.913163+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.689,32.629,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:42.291225+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.689,32.629,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:48.193351+00:00,CRASH-02,crash_loop,seminar,predictive-app-788cd796db-8hcfl,0.972,32.129,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:40:54.082257+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:41:00.023070+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:41:05.974823+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,1.277,32.633,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:11.591750+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,1.277,32.633,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:17.228917+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,1.277,32.633,0.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:23.124275+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,0.907,32.383,1.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:41:28.764511+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,0.907,32.383,1.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:34.705723+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,91.4,32.871,1.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:40.510931+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,91.4,32.871,1.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:46.288247+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,91.4,32.871,1.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:51.912623+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,91.4,32.871,1.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:41:57.601065+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,91.4,32.871,1.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:42:03.206590+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:42:09.780723+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:42:15.673259+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:42:21.275483+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,123.719,32.684,2.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:42:27.584225+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,123.719,32.684,2.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:42:33.777658+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,34.286,32.699,2.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:42:40.069922+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,34.286,32.699,2.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:42:46.382242+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,34.286,32.699,2.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:42:53.453915+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:43:00.348051+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:43:07.006644+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:43:13.111192+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:43:19.284951+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,256.231,32.738,3.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:43:25.779408+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,256.231,32.738,3.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:43:31.545293+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,256.231,32.738,3.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:43:37.635641+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,32.882,32.77,3.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:43:44.049573+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,32.882,32.77,3.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:43:50.134515+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:43:56.284532+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:02.029727+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:07.814118+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:13.695955+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:19.419810+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:25.087236+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:31.085438+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:36.772462+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:42.711397+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:48.825187+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:44:55.711773+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:01.384849+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:07.161151+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,32.691,32.461,4.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:45:13.237944+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,32.691,32.461,4.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:45:20.842524+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:26.699067+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:33.976746+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:40.124212+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:46.557965+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:52.549825+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:45:58.121839+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:03.721854+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:09.324934+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:15.294093+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:21.139540+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:26.782006+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:32.537633+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:38.184231+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:43.836205+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:49.607886+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:46:55.265696+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:47:01.066886+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:47:06.586030+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,85.882,32.375,5.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:47:12.081614+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,85.882,32.375,5.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:47:15.235852+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,85.882,32.375,5.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:47:20.733619+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,0.696,32.633,5.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:47:26.602311+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,0.696,32.633,5.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:47:32.006048+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,0.696,32.633,5.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:47:37.550158+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:47:43.229920+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:47:48.675141+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:47:54.242382+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:47:59.727020+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:05.116287+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:10.512164+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:15.964048+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:21.331866+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:26.747642+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:32.241487+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:37.649631+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:43.145686+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:48.613977+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:54.098127+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:48:59.503245+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:04.973796+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:10.379160+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:15.853825+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:21.279828+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:26.702977+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:32.101363+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:37.506608+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:42.894913+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:48.307433+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:49:54.241584+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:50:00.726368+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:50:06.675891+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:50:12.160738+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:50:17.679168+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:50:23.265175+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,70.551,32.125,6.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:50:28.698277+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,70.551,32.125,6.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:50:34.105314+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,70.551,32.125,6.0,Running,True,seminar-lab-control-plane,,CRASH-02_metrics.csv,1,1,0
+2026-07-22T18:50:39.524237+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,70.551,32.125,6.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:50:44.907350+00:00,CRASH-02,crash_loop,seminar,predictive-app-57d7469db5-t65s9,70.551,32.125,6.0,Running,False,seminar-lab-control-plane,,CRASH-02_metrics.csv,0,1,0
+2026-07-22T18:50:50.293314+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:50:55.826594+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:01.223480+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:06.638684+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:12.330907+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:17.723006+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:23.180244+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:28.626515+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:34.319937+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:39.847095+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:45.205587+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:50.642671+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:51:56.069437+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:01.626618+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:07.089964+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:12.491264+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:17.874332+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:23.395769+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:28.836683+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:34.316140+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:39.760301+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:45.203101+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:50.719172+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:52:56.227726+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:01.722545+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:07.132794+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:12.529354+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:17.913578+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:23.380551+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:29.094790+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:35.252655+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:40.993538+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:46.763014+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:52.152124+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:53:57.563811+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:02.954091+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:08.374545+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:13.787769+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:19.150337+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:24.619243+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:30.022837+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:35.415849+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:40.793363+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:46.226402+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:51.615962+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:54:57.022091+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:55:02.404059+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:55:07.776897+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T18:55:13.167436+00:00,CRASH-02,crash_loop,seminar,,,,,Unknown,,,No matching pod metrics were returned,CRASH-02_metrics.csv,0,0,1
+2026-07-22T14:44:29.793081+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.737,32.711,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:44:35.259505+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.607,32.211,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:44:41.172873+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.607,32.211,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:44:46.709522+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.607,32.211,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:44:52.176728+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.74,32.215,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:44:57.647798+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.74,32.215,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:03.112809+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.721,32.457,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:09.074517+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.721,32.457,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:14.957890+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,0.721,32.457,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:21.396747+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,17.577,32.297,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:27.315346+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,17.577,32.297,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:32.927369+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,34.219,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:39.195578+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,34.219,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:44.950877+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,34.219,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:51.170686+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.54,32.547,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:45:56.780254+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.54,32.547,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:02.459835+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.54,32.547,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:08.252923+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.659,32.801,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:13.865072+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.659,32.801,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:19.995215+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,31.347,32.797,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:25.570023+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,31.347,32.797,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:31.509791+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,31.347,32.797,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:37.042013+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.51,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:42.573365+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.51,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:48.593351+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.51,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:54.237455+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.51,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:46:59.918420+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.51,32.312,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:05.958996+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.008,33.051,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:11.536335+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.008,33.051,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:17.994619+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.008,33.051,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:23.869399+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.008,33.051,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:30.101911+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.008,33.051,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:35.782691+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,33.686,32.375,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:41.382560+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,33.686,32.375,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:47.359979+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,33.686,32.375,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:53.008428+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,31.681,32.621,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:47:58.858669+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,31.681,32.621,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:04.462893+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,33.986,32.621,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:11.247473+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,33.986,32.621,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:16.878153+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,33.986,32.621,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:22.457288+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.596,32.383,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:28.163217+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,32.596,32.383,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:33.958470+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.813,32.871,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:40.051707+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.813,32.871,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:46.144218+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.813,32.871,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:52.041043+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.471,32.875,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:48:57.833718+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,30.471,32.875,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:49:03.518418+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,29.622,32.867,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:49:09.249247+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,29.622,32.867,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:49:14.891859+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,29.622,32.867,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:49:20.449758+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,34.867,32.863,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:49:26.559350+00:00,HB-01,healthy,seminar,predictive-app-7d999b6db7-247zj,34.867,32.863,0.0,Running,True,seminar-lab-control-plane,,HB-01_metrics.csv,1,1,0
+2026-07-22T14:57:53.615646+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.763,32.371,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:57:59.078271+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.763,32.371,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:04.510789+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.779,32.371,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:10.060894+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.779,32.371,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:15.518693+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.779,32.371,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:21.321177+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.861,32.617,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:27.692709+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,0.861,32.617,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:33.908732+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.835,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:39.522519+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.835,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:45.175438+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.835,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:51.062698+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,29.054,32.879,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:58:56.830438+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,29.054,32.879,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:03.388298+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.623,32.637,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:10.664289+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.623,32.637,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:16.368884+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.623,32.637,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:21.999773+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.397,32.633,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:27.597923+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.397,32.633,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:33.266486+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,29.246,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:39.114782+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,29.246,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:44.801117+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,29.246,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:50.477128+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.652,32.633,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T14:59:56.297220+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.652,32.633,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:01.930492+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.652,32.633,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:07.500894+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,28.967,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:13.129804+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,28.967,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:19.169319+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.174,32.387,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:25.049053+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.174,32.387,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:31.043309+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.174,32.387,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:37.377882+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.174,32.387,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:43.707268+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.174,32.387,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:49.633017+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,33.905,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:00:57.981377+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,33.905,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:03.677928+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,33.905,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:09.405261+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,33.905,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:15.153590+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,33.905,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:21.040031+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.927,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:26.831406+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.927,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:32.897604+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.927,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:38.832217+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.927,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:44.606027+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.927,33.129,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:50.520054+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.626,32.637,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:01:56.417041+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.626,32.637,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:02.850360+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.836,32.391,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:08.734840+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.836,32.391,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:14.331515+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,32.836,32.391,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:20.141098+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.374,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:27.198461+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,30.374,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:32.805692+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.155,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:38.436889+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.155,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:44.385084+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.155,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T15:02:50.168713+00:00,HB-02,healthy,seminar,predictive-app-7d999b6db7-247zj,31.155,32.883,0.0,Running,True,seminar-lab-control-plane,,HB-02_metrics.csv,1,1,0
+2026-07-22T17:00:01.020196+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.831,32.648,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:07.252779+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.662,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:13.169994+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.662,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:19.178741+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.746,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:24.935942+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.746,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:30.701357+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.746,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:37.087152+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.612,32.152,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:42.779280+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.612,32.152,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:48.465283+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.816,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:54.096933+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.816,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:00:59.815557+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.816,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:05.363428+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.656,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:10.843266+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.656,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:16.260196+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.656,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:21.714123+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.724,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:27.115416+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.724,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:32.519908+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.724,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:38.160271+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.79,32.645,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:43.628095+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.79,32.645,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:49.734310+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,3.933,35.461,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:01:56.184076+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,3.933,35.461,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:01.849712+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,3.933,35.461,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:07.452666+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,3.933,35.461,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:13.081498+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,3.933,35.461,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:18.758218+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,37.327,65.77,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:24.474351+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,37.327,65.77,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:30.208904+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,37.327,65.77,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:36.155744+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,63.956,79.387,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:41.986603+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,63.956,79.387,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:47.550214+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,63.956,79.387,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:02:54.320719+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,45.995,96.828,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:00.708504+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,45.995,96.828,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:06.875814+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,60.862,110.211,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:12.747802+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,60.862,110.211,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:18.368034+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,37.954,121.066,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:26.276052+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,37.954,121.066,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:31.878272+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,37.954,121.066,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:38.024167+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,55.166,136.965,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:44.788203+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,55.166,136.965,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:52.170503+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,49.226,153.902,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:03:59.124469+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,49.226,153.902,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:05.781485+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,67.571,168.84,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:11.886539+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,67.571,168.84,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:18.403234+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,45.235,179.453,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:25.245275+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,45.235,179.453,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:32.372066+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,45.235,179.453,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:38.423814+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,44.676,197.137,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:43.990440+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,44.676,197.137,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:49.757518+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,42.17,213.297,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:04:55.356127+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,42.17,213.297,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:00.926622+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,42.17,213.297,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:06.503702+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,39.016,232.234,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:12.119328+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,39.016,232.234,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:17.667658+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,39.016,232.234,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:23.266163+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,39.016,232.234,0.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:29.308980+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,39.016,232.234,1.0,Running,False,seminar-lab-control-plane,,MEM-01_metrics.csv,0,1,0
+2026-07-22T17:05:35.511467+00:00,MEM-01,memory_pressure,seminar,,,,,Unknown,,,No matching pod metrics were returned,MEM-01_metrics.csv,0,0,1
+2026-07-22T17:05:41.975437+00:00,MEM-01,memory_pressure,seminar,,,,,Unknown,,,No matching pod metrics were returned,MEM-01_metrics.csv,0,0,1
+2026-07-22T17:05:48.703700+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,139.951,32.039,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:05:55.335761+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,139.951,32.039,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:01.896283+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,139.951,32.039,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:08.083973+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.901,32.07,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:14.368129+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.901,32.07,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:20.605566+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.789,32.078,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:27.073866+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.789,32.078,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:33.177285+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.923,32.086,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:39.561333+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.923,32.086,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:45.902733+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.923,32.086,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:52.039132+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.889,32.098,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:06:58.417678+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.889,32.098,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:06.067237+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.798,32.105,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:12.056386+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.798,32.105,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:18.037669+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.798,32.105,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:23.796889+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.792,32.102,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:29.389739+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,0.792,32.102,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:35.339177+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,21.899,43.473,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:41.110320+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,21.899,43.473,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:46.714842+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,21.899,43.473,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:53.449121+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,35.149,54.352,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:07:59.507958+00:00,MEM-01,memory_pressure,seminar,predictive-app-6f4b57b64c-kwpsb,35.149,54.352,1.0,Running,True,seminar-lab-control-plane,,MEM-01_metrics.csv,1,1,0
+2026-07-22T17:22:17.797113+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.769,32.125,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:23.242181+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.725,32.121,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:28.628303+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.725,32.121,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:34.028143+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,1.016,32.129,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:39.429143+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,1.016,32.129,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:44.859326+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,1.016,32.129,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:50.335369+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.699,32.129,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:22:55.857173+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.699,32.129,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:01.241393+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.699,32.129,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:06.633785+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.649,32.125,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:12.073715+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.649,32.125,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:17.487422+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.649,32.125,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:22.884267+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.84,32.625,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:28.277396+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.84,32.625,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:33.668904+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.643,32.387,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:39.119687+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.643,32.387,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:44.511728+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.643,32.387,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:49.925807+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.643,32.387,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:23:55.343994+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.643,32.387,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:01.452496+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.643,32.387,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:07.152463+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.722,32.137,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:12.566621+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.722,32.137,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:18.156854+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.722,32.137,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:23.566076+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.814,32.395,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:28.985245+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.814,32.395,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:35.014081+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.739,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:40.694258+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.739,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:46.208022+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.739,32.148,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:51.587297+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.95,32.145,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:24:56.967857+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.95,32.145,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:02.687952+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.95,32.145,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:08.625786+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,9.337,37.039,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:14.471230+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,9.337,37.039,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:20.075016+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,9.337,37.039,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:25.961359+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,9.337,37.039,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:31.515214+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,9.337,37.039,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:37.113517+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,35.46,54.473,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:43.308343+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,35.46,54.473,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:49.026643+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.454,84.754,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:25:54.525103+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.454,84.754,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:00.121797+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.454,84.754,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:06.003637+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.454,84.754,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:11.580805+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.454,84.754,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:17.442072+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.454,84.754,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:23.036247+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.257,103.473,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:29.151029+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.257,103.473,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:35.569172+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.863,129.215,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:42.052000+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.863,129.215,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:47.850297+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.863,129.215,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:54.204203+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.863,129.215,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:26:59.851508+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.863,129.215,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:05.658971+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,32.288,149.176,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:11.538729+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,32.288,149.176,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:18.346729+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,32.042,163.066,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:24.104569+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,32.042,163.066,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:29.770654+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,32.042,163.066,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:36.434049+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.089,182.484,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:42.367353+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.089,182.484,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:48.011780+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.688,201.176,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:27:54.480237+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.688,201.176,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:00.043315+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,33.688,201.176,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:05.564834+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,36.01,211.027,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:11.228871+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,36.01,211.027,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:16.767812+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,36.01,211.027,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:22.392648+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.182,231.23,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:27.970725+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,31.182,231.23,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:33.481202+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,38.57,250.418,0.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:28:39.164010+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,38.57,250.418,0.0,Running,False,seminar-lab-control-plane,,MEM-02_metrics.csv,0,1,0
+2026-07-22T17:28:45.494142+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,38.57,250.418,1.0,Running,False,seminar-lab-control-plane,,MEM-02_metrics.csv,0,1,0
+2026-07-22T17:28:52.161708+00:00,MEM-02,memory_pressure,seminar,,,,,Unknown,,,No matching pod metrics were returned,MEM-02_metrics.csv,0,0,1
+2026-07-22T17:28:58.289358+00:00,MEM-02,memory_pressure,seminar,,,,,Unknown,,,No matching pod metrics were returned,MEM-02_metrics.csv,0,0,1
+2026-07-22T17:29:03.883119+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,63.891,32.031,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:10.637787+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,63.891,32.031,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:17.755653+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,63.891,32.031,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:24.065323+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.883,32.062,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:31.168833+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,0.883,32.062,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:36.977718+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,15.772,41.766,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:42.607444+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,15.772,41.766,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:48.469195+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,15.772,41.766,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:29:54.592810+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,15.772,41.766,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:30:01.164971+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,15.772,41.766,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:30:06.743489+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,34.206,61.992,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-22T17:30:13.041760+00:00,MEM-02,memory_pressure,seminar,predictive-app-6dcbf8788-tmqnm,34.206,61.992,1.0,Running,True,seminar-lab-control-plane,,MEM-02_metrics.csv,1,1,0
+2026-07-23T17:11:43.082934+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,1.465,34.168,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:11:48.662160+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,1.465,34.168,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:11:54.272557+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.823,34.176,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:11:59.739301+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.823,34.176,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:05.218127+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.823,34.176,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:10.877616+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.679,34.164,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:18.925826+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.679,34.164,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:25.277927+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.831,34.164,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:32.638292+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,0.831,34.164,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:38.587235+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,90.539,34.754,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:44.724460+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,90.539,34.754,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:50.535735+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,90.539,34.754,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:12:58.389146+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,177.424,35.02,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:13:06.162719+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,187.643,35.02,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:13:15.227210+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,187.643,35.02,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:13:24.530126+00:00,NODE-01,node_disruption,seminar,predictive-app-788cd796db-kg6k9,67.148,34.453,3.0,Running,True,seminar-lab-control-plane,,NODE-01_metrics.csv,1,1,0
+2026-07-23T17:13:38.121663+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Error from server (ServiceUnavailable): the server is currently unable to handle the request,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:13:46.177789+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: EOF,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:13:53.293204+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:13:58.598895+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:04.056342+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:09.386719+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:14.735597+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:20.104864+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:25.592264+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:31.083517+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:38.557772+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:44.108544+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:49.631282+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:14:55.419533+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:00.836572+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:06.319470+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:11.769856+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:17.338896+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:22.670138+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:28.227185+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:34.022590+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T17:15:39.811395+00:00,NODE-01,node_disruption,seminar,,,,,Unknown,,,Unable to connect to the server: dial tcp 127.0.0.1:64808: connectex: No connection could be made because the target machine actively refused it.,NODE-01_metrics.csv,0,0,1
+2026-07-23T18:18:46.251420+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.662,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:18:51.715111+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.662,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:18:57.210491+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.662,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:02.787291+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.662,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:08.214186+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.662,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:13.831822+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.662,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:19.302321+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.78,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:26.481764+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.78,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:33.577693+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.78,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:39.041728+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.78,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:44.598803+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,0.78,32.246,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:50.127503+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,84.241,33.254,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:19:55.534848+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,84.241,33.254,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:01.397160+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,173.859,33.301,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:07.321620+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,173.859,33.301,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:13.166653+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,173.859,33.301,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:18.616353+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,164.817,33.535,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:24.105862+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,164.817,33.535,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:29.542483+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,164.817,33.535,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:35.024461+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,161.956,33.055,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:40.452503+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,161.956,33.055,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:46.003835+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.244,33.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:51.561686+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.244,33.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:20:57.041111+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.244,33.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:02.469813+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.425,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:07.918147+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.425,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:13.421027+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.425,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:18.883880+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.017,33.297,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:24.289304+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.017,33.297,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:29.720282+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.017,33.297,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:35.212040+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,147.815,33.309,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:40.638087+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,147.815,33.309,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:46.150939+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,147.791,33.051,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:51.553364+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,147.791,33.051,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:21:57.017948+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,147.791,33.051,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:02.483077+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,150.277,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:07.926017+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,150.277,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:13.460149+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,150.277,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:18.889367+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.43,33.055,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:24.313789+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.43,33.055,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:29.744651+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.43,33.055,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:35.207901+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,146.906,33.062,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:40.629186+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,146.906,33.062,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:46.182497+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.791,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:51.589993+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.791,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:22:57.068759+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.791,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:02.485249+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.197,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:07.952452+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.197,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:13.435690+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.197,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:18.995116+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.668,33.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:24.413416+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.668,33.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:29.921604+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.668,33.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:35.818429+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.638,33.059,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:41.498379+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.638,33.059,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:46.970591+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.638,33.059,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:52.462309+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.638,33.059,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:23:57.927357+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.638,33.059,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:03.397257+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,155.82,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:08.904292+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,155.82,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:14.422042+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,155.82,32.816,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:19.823092+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,150.917,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:25.272873+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,150.917,33.312,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:30.737068+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,153.886,33.551,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:36.293145+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,153.886,33.551,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:42.389463+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,153.886,33.551,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:47.827598+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.258,33.32,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:53.299319+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.258,33.32,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:24:58.920182+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,160.258,33.32,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:04.370336+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.223,33.305,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:09.804473+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,152.223,33.305,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:15.303530+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.71,33.07,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:21.680769+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.71,33.07,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:27.166367+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.71,33.07,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:33.453592+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,110.268,34.832,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:39.256696+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,110.268,34.832,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:44.673006+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,110.268,34.832,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:50.132656+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,156.716,34.844,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:25:55.844393+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,156.716,34.844,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:01.413727+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.113,35.324,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:06.903782+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.113,35.324,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:12.344172+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.113,35.324,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:17.823752+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,154.92,35.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:23.278992+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,154.92,35.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:28.742854+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,154.92,35.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:34.196554+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,148.369,34.598,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:39.610121+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,148.369,34.598,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:45.035637+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,148.369,34.598,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:50.466409+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.319,34.828,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:26:55.902896+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.319,34.828,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:01.483600+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.336,34.84,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:06.944828+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.336,34.84,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:12.378742+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.336,34.84,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:17.976392+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.062,34.594,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:23.450893+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.062,34.594,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:28.884827+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.062,34.594,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:34.307180+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,156.195,34.844,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:39.754256+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,156.195,34.844,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:45.187353+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.556,34.59,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:50.608454+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.556,34.59,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:27:56.094896+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,149.556,34.59,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:01.602884+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,146.086,34.824,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:07.056789+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,146.086,34.824,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:12.500776+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,146.086,34.824,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:18.013759+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,148.587,34.574,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:23.445558+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,148.587,34.574,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:28.963937+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,148.587,34.574,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:34.438671+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.608,34.828,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:39.944786+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,151.608,34.828,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0
+2026-07-23T18:28:45.466015+00:00,NODE-02,healthy,seminar,predictive-app-788cd796db-kg6k9,158.566,35.074,4.0,Running,True,seminar-lab-control-plane,,NODE-02_metrics.csv,1,1,0

@@ -1,0 +1,9 @@
+feature,importance
+numeric__memory_mib,0.3135266940259678
+numeric__restart_count,0.29030720904849083
+numeric__cpu_millicores,0.1955188921352344
+numeric__ready_numeric,0.053725765032424586
+numeric__collection_error_present,0.04209137432161314
+categorical__phase_Unknown,0.03566675113473932
+categorical__phase_Running,0.0352607895765515
+numeric__pod_present,0.03390252472497848

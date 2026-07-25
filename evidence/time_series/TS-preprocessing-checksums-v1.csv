@@ -1,0 +1,6 @@
+Algorithm,Hash,Path,Role
+SHA256,D1199C1E1A1652E0F691EB875A3709A624D1DE1976913F85839CAF0AF40C2DE3,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\data\time_series\processed\TS-HB-01_processed.csv,input
+SHA256,87A0F3405047B3B88ECF947C0BCC92E934BB8A69EBD4FD3EF291CA1C59424FE2,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\data\time_series\processed\TS-HB-02_processed.csv,input
+SHA256,822BDC4F2812EBF44CDC4DC3F97FE4F91737DFAC7EC093CC152A176565EC058B,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\data\time_series\raw\TS-MEM-01_metrics.csv,input
+SHA256,22FE625E22B702A63DF57A10DE1883FD4CEE79E7F5BE0FF5C3EAFC2205A8BB15,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\data\time_series\processed\TS-predictive-dataset-v1.csv,generated
+SHA256,3A679E081A78C0C4912725DE4D5B49305B13F89FAF40905CA44EBDDEE038F9E2,C:\Users\DELL\Documents\MIT8212 SEMINAR\predictive-k8s-failure\evidence\time_series\TS-preprocessing-summary-v1.json,generated

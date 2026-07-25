@@ -1,0 +1,81 @@
+{
+  "pipeline_version": "1.0",
+  "purpose": "Leakage-safe time-series preprocessing for Kubernetes failure prediction",
+  "input_rows": 270,
+  "output_rows": 266,
+  "excluded_rows": 4,
+  "failure_experiment": "TS-MEM-01",
+  "failure_detection_method": "First positive restart_count transition",
+  "failure_timestamp_utc": "2026-07-24T15:38:05.633371+00:00",
+  "restart_count_after_failure": 1,
+  "rolling_windows_minutes": [
+    5,
+    15,
+    30
+  ],
+  "prediction_horizons_minutes": [
+    5,
+    15,
+    30,
+    60
+  ],
+  "experiment_output_rows": {
+    "TS-HB-01": 90,
+    "TS-HB-02": 90,
+    "TS-MEM-01": 86
+  },
+  "target_distribution": {
+    "failure_within_5m": {
+      "positive": 4,
+      "negative": 262
+    },
+    "failure_within_15m": {
+      "positive": 14,
+      "negative": 252
+    },
+    "failure_within_30m": {
+      "positive": 29,
+      "negative": 237
+    },
+    "failure_within_60m": {
+      "positive": 59,
+      "negative": 207
+    }
+  },
+  "leakage_controls": [
+    "Rolling features use current and historical observations only",
+    "Restart transition row excluded from model dataset",
+    "Post-failure recovery rows excluded from model dataset",
+    "OOMKilled event is not used as an input feature",
+    "Future measurements are not used as input features",
+    "restart_count is retained for audit but should not be selected as a model feature",
+    "experiment_id and label are metadata, not model features"
+  ],
+  "inputs": [
+    {
+      "file": "data\\time_series\\processed\\TS-HB-01_processed.csv",
+      "experiment_id": "TS-HB-01",
+      "rows": 90,
+      "collection_errors": 0,
+      "sha256": "D1199C1E1A1652E0F691EB875A3709A624D1DE1976913F85839CAF0AF40C2DE3"
+    },
+    {
+      "file": "data\\time_series\\processed\\TS-HB-02_processed.csv",
+      "experiment_id": "TS-HB-02",
+      "rows": 90,
+      "collection_errors": 0,
+      "sha256": "87A0F3405047B3B88ECF947C0BCC92E934BB8A69EBD4FD3EF291CA1C59424FE2"
+    },
+    {
+      "file": "data\\time_series\\raw\\TS-MEM-01_metrics.csv",
+      "experiment_id": "TS-MEM-01",
+      "rows": 90,
+      "collection_errors": 0,
+      "sha256": "822BDC4F2812EBF44CDC4DC3F97FE4F91737DFAC7EC093CC152A176565EC058B"
+    }
+  ],
+  "output": {
+    "file": "data\\time_series\\processed\\TS-predictive-dataset-v1.csv",
+    "sha256": "22FE625E22B702A63DF57A10DE1883FD4CEE79E7F5BE0FF5C3EAFC2205A8BB15"
+  }
+}

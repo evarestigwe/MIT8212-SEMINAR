@@ -1,0 +1,24 @@
+{
+  "total_dataset_rows": 825,
+  "training_rows": 547,
+  "testing_rows": 278,
+  "training_experiments": [
+    "CPU-01",
+    "CPU-02",
+    "CRASH-02",
+    "HB-01",
+    "MEM-01",
+    "NODE-01",
+    "NODE-02"
+  ],
+  "testing_experiments": [
+    "CPU-03",
+    "CRASH-01",
+    "HB-02",
+    "MEM-02"
+  ],
+  "accuracy": 0.6330935251798561,
+  "macro_f1": 0.5095424855991496,
+  "weighted_f1": 0.6358181499004608,
+  "evaluation_note": "The split is experiment-grouped to reduce temporal leakage. NODE-01 remains in training because it is the only validated node-disruption experiment; therefore node_disruption has no independent held-out evaluation."
+}
