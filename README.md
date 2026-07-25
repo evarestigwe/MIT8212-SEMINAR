@@ -1,204 +1,136 @@
-# 60-Minute Early Prediction of Kubernetes Pod and Node Failures Using Random Forest and Isolation Forest
+# Random Forest–Based Prediction of Resource-Configuration-Induced Kubernetes Pod Failures
 
-This repository contains the Kubernetes laboratory, experiment scripts, telemetry, datasets, model outputs, and verification evidence developed for the MIT 8212 seminar project.
+## A 60-Minute Early-Warning Approach
 
-> **Research status:** Controlled proof of concept conducted on a local, single-node Kind cluster. The results demonstrate technical feasibility within the recorded experiments; they do not establish production-scale generalisation or authorise autonomous remediation.
+This repository contains the code, Kubernetes manifests, experiment scripts, dataset pipeline, Random Forest model, and evaluation evidence developed for a seminar on solving industry problems through IT management.
 
-## Principal Research Question
+The project investigates whether Kubernetes resource configuration, workload intensity, and runtime telemetry can be used to predict whether a pod will experience resource-related degradation or failure within the following 60 minutes.
 
-> **How can Random Forest and Isolation Forest be integrated within a unified MLOps platform to predict and detect Kubernetes pod and node failures with at least 60 minutes of actionable early warning?**
+> **Status:** Seminar proof of concept. This project is designed for controlled local experimentation and is not a production-ready Kubernetes remediation system.
 
-## Study Purpose
+## Industry Problem
 
-Kubernetes can restart failed containers and monitoring platforms can alert when fixed thresholds are crossed. These mechanisms are necessary, but they may identify degradation only after a predefined symptom has appeared. This study evaluates a complementary hybrid approach:
+Organisations increasingly use Kubernetes to operate customer-facing and business-critical services. CPU and memory configuration changes may appear safe during idle operation but become inadequate during peak workloads. The resulting conditions may include:
 
-- **Random Forest** performs supervised classification of known operational conditions and focused prediction of failure within a 60-minute horizon.
-- **Isolation Forest** learns healthy behaviour without failure labels and detects deviations that may provide an earlier warning.
-- **Kubernetes-native evidence**—events, readiness, restarts, termination reasons, resource metrics, and workload results—remains the deterministic source for confirmation and operational governance.
+- container termination reported as `OOMKilled`;
+- sustained CPU throttling;
+- increased response latency;
+- readiness failure; and
+- repeated container restarts.
 
-The models perform different tasks. Their metrics are therefore reported separately and are not averaged into one performance score.
+Kubernetes can restart failed containers, and monitoring systems can alert when predefined thresholds are crossed. These approaches are useful but are mainly reactive or context-limited. This project evaluates whether a Random Forest classifier can combine configuration, workload, and runtime indicators to provide earlier warning.
 
-## Experimental Design
+## Research Question
 
-The work follows Design Science Research, controlled quantitative experimentation, and a CRISP-DM/MLOps lifecycle. Four analytical tasks were evaluated:
+> How effectively can a Random Forest model use configuration, workload, and runtime indicators to predict resource-configuration-induced Kubernetes pod failures within a 60-minute horizon?
 
-1. multiclass classification of known Kubernetes operational conditions;
-2. broad anomaly detection against a validated healthy baseline;
-3. binary prediction of failure within the next 60 minutes; and
-4. unsupervised early warning of a controlled memory-failure trajectory.
+## Objectives
 
-### Recorded conditions
+1. Reproduce healthy and resource-misconfigured workloads in a local Kind cluster.
+2. Collect CPU, memory, workload, latency, readiness, restart, and termination data.
+3. Construct labels indicating whether failure occurs within 60 minutes.
+4. Train a Random Forest classifier on the experimental data.
+5. Compare the model with static CPU and memory threshold monitoring.
+6. Evaluate precision, recall, F1-score, false warnings, missed failures, and warning lead time.
+7. Provide reproducible code, data definitions, experiment evidence, and limitations.
 
-- healthy baseline;
-- CPU stress;
-- memory pressure and `OOMKilled`;
-- `CrashLoopBackOff`; and
-- node disruption.
+## Experimental Scope
 
-Fourteen named experimental runs contributed to the complete study. The exploratory stage used healthy, CPU-stress, memory-pressure, crash-loop, and node-disruption evidence. The focused time-series stage used `TS-HB-01`, `TS-HB-02`, and `TS-MEM-01`.
+The experiment uses one containerised Python web application and four controlled scenarios.
 
-### Important evidence correction
+| Scenario | Resource configuration | Workload | Expected outcome |
+|---|---|---|---|
+| Healthy idle | Appropriate CPU and memory limits | Low | Stable operation |
+| Healthy peak | Appropriate CPU and memory limits | High | Increased utilisation without failure |
+| Memory failure | Inadequate memory limit | Peak or increasing | `OOMKilled` |
+| CPU degradation | Inadequate CPU limit | Peak | CPU throttling and sustained latency |
 
-`NODE-02` was planned as a node-failure experiment, but its evidence showed 109 observations in which the pod remained Running and Ready, with no recorded outage interval. Its raw file was preserved unchanged, while the observations were transparently relabelled as healthy during analytical consolidation. It must not be presented as a successful node-disruption run.
+The project does not attempt to predict network partitions, storage failures, database outages, security incidents, destructive administrative operations, or every possible Kubernetes failure.
 
-## Datasets
+## Failure Definition
 
-| Analytical stage | Dataset | Composition | Purpose |
-|---|---:|---|---|
-| Exploratory | 825 validated observations | Healthy, CPU stress, memory pressure, crash loop, and node disruption | Multiclass classification and broad anomaly detection |
-| Focused time series | 266 observations | 90 healthy training, 90 independent healthy holdout, and 86 memory-failure observations | 60-minute prediction and warning-lead-time evaluation |
+An observation is labelled `1` when at least one of the following occurs within the next 60 minutes:
 
-The 266-row dataset contains 42 current, rolling, and change-based features. These include CPU, memory, and readiness values; 5-, 15-, and 30-minute rolling statistics; one-minute changes; and memory-growth rate.
+- the container is terminated as `OOMKilled`;
+- a resource-related container restart occurs;
+- readiness failure persists for at least two minutes; or
+- response latency remains above the predefined degradation threshold for at least five minutes.
 
-Timestamps, experiment identifiers, failure timestamps, minutes to failure, and future failure-window fields were excluded from model inputs. Complete experimental runs or chronological blocks were used to reduce row-level and temporal leakage.
+Otherwise, the observation is labelled `0`.
 
-## Verified Results
+The 60-minute horizon is a classification window. It does not imply that every failure can be predicted exactly one hour before it happens.
 
-### Exploratory evaluation
-
-| Model | Task | Evaluation evidence | Result |
-|---|---|---:|---|
-| Random Forest | Five-class operational-condition classification | 278 held-out observations | 63.31% accuracy; 50.95% macro F1; 63.58% weighted F1 |
-| Isolation Forest | Normal-versus-anomaly detection | 664 unseen observations | 99.12% anomaly precision; 36.87% recall; 53.75% F1; 64.64% ROC-AUC |
-
-The exploratory Random Forest provided moderate discrimination across known conditions. Its largest confusion was between CPU stress and memory pressure. The exploratory Isolation Forest produced very reliable alerts when it flagged an anomaly, but its low recall meant that it missed many failure observations, particularly crash-loop patterns.
-
-### Focused 60-minute evaluation
-
-| Model | Task | Evaluation evidence | Result |
-|---|---|---:|---|
-| Random Forest | Binary `failure_within_60m` prediction | 82 held-out observations | 100% across reported classification metrics |
-| Isolation Forest | Healthy-baseline anomaly detection and early warning | 176 evaluation observations | 80.68% accuracy; 63.44% precision; 100% recall; 77.63% F1; 88.67% ROC-AUC |
-
-The focused Isolation Forest detected all 59 observations inside the formal failure window. Its first anomaly appeared **78.78 minutes before the recorded memory failure**, approximately 18.78 minutes before the formal 60-minute boundary. The independent healthy holdout produced a **16.67% false-positive rate**.
-
-The focused Random Forest result is promising but preliminary. It was derived from one controlled memory-failure experiment and a chronological within-experiment split. It must not be interpreted as proof of equivalent performance across unseen applications, clusters, node failures, or other failure families.
-
-## Model Comparison
-
-| Dimension | Random Forest | Isolation Forest |
-|---|---|---|
-| Learning method | Supervised | Unsupervised |
-| Training requirement | Labelled examples | Validated healthy baseline |
-| Main operational role | Classify represented conditions and predict a defined target | Detect deviation without needing every failure label |
-| Strongest finding | Perfect focused classification on 82 held-out rows | 100% failure-window recall and 78.78-minute first warning |
-| Main limitation | Small, homogeneous focused dataset | 16.67% focused healthy false-positive rate and low exploratory recall |
-
-Random Forest produced the stronger formal classification performance. Isolation Forest supplied distinct operational value by detecting abnormal behaviour without failure labels and establishing a verified warning timeline. The evidence supports using both as complementary decision-support signals alongside Kubernetes-native monitoring and human-governed response.
-
-## Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
-    A["Controlled workloads"] --> B["Kind Kubernetes cluster"]
-    B --> C["Telemetry and event collection"]
-    C --> D["Validation and feature pipeline"]
-    D --> E["Random Forest"]
-    D --> F["Isolation Forest"]
-    E --> G["Known-condition or 60-minute risk"]
-    F --> H["Real-time anomaly signal"]
-    G --> I["Governed MLOps decision support"]
-    H --> I
-    B --> I
+    A["k6 workload generator"] --> B["Test application in Kind"]
+    B --> C["Telemetry collector"]
+    D["Kubernetes resource configuration"] --> C
+    C --> E["Raw experiment data"]
+    E --> F["Feature and label pipeline"]
+    F --> G["Random Forest model"]
+    G --> H["60-minute failure risk"]
+    H --> I["Warning and recommendation"]
 ```
 
-## Result-Verification Map
+## Technology Stack
 
-The following artifact families form the verification chain used in the seminar report:
+- Docker Desktop or Docker Engine
+- Kind
+- Kubernetes and `kubectl`
+- Python 3
+- Flask and Gunicorn
+- k6
+- Pandas and NumPy
+- Scikit-learn
+- Joblib
+- Matplotlib and Seaborn
+- Git and GitHub
 
-| Evidence | Purpose |
-|---|---|
-| Raw experiment telemetry and workload output | Confirms what occurred during each controlled run |
-| Processed exploratory and time-series datasets | Confirms row counts, labels, features, and analytical inputs |
-| Random Forest evaluation summaries | Confirms confusion matrices, held-out metrics, and feature importance |
-| Isolation Forest evaluation summaries | Confirms anomaly metrics, scores, experiment-level rates, and lead time |
-| Test-prediction CSV files | Permits independent recalculation of reported metrics |
-| Classification reports | Provides class-level precision, recall, F1-score, and support |
-| SHA-256 manifests | Detects subsequent modification of checksum-verified artifacts |
+Exact versions used in the experiment should be recorded in `evidence/environment.txt`.
 
-The focused model evidence uses the `RF-60m-*` and `IF-*` naming conventions under `evidence/model/`. The processed time-series dataset is identified as `TS-predictive-dataset-v1.csv`.
+## Repository Structure
 
-> **Repository completeness check:** before treating this repository as a complete independent verification package, confirm that the processed datasets and all `RF-60m-*` and `IF-*` evidence files are visible on the public branch. A README result table is an index, not a substitute for the underlying artifacts.
-
-## Verify the Evidence
-
-### PowerShell
-
-Run the following from the repository root:
-
-```powershell
-Get-FileHash .\evidence\model\* -Algorithm SHA256
-
-$rf = Get-Content .\evidence\model\RF-60m-evaluation-summary-v1.json -Raw |
-  ConvertFrom-Json
-
-$features = Import-Csv .\evidence\model\RF-60m-feature-importance-v1.csv
-
-"Model: $($rf.model_type)"
-"Top-10 feature entries: $($rf.top_10_features.Count)"
-"Feature rows: $($features.Count)"
-"Feature-importance total: $(($features | Measure-Object importance -Sum).Sum)"
-"Features absent from CSV:"
-$rf.feature_columns | Where-Object { $_ -notin $features.feature }
+```text
+.
+├── README.md
+├── requirements.txt
+├── application/
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+├── kind/
+│   └── cluster.yaml
+├── kubernetes/
+│   └── application.yaml
+├── load-tests/
+│   └── workload.js
+├── experiments/
+│   ├── collect_metrics.py
+│   ├── run_experiment.sh
+│   └── reset_environment.sh
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── data_dictionary.md
+├── model/
+│   ├── prepare_data.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   └── saved/
+├── results/
+├── evidence/
+└── docs/
+    └── final-experiment-protocol.md
 ```
 
-Expected Random Forest audit:
+Some files and directories are populated progressively as the controlled experiments are completed.
 
-- model type: `RandomForestClassifier`;
-- top-10 list: 10 entries;
-- feature-importance CSV: 42 rows;
-- feature-importance total: 1; and
-- no model feature absent from the CSV.
+## Prerequisites
 
-### Bash
-
-```bash
-sha256sum evidence/model/*
-
-python - <<'PY'
-import csv
-import json
-from pathlib import Path
-
-root = Path("evidence/model")
-summary = json.loads(
-    (root / "RF-60m-evaluation-summary-v1.json").read_text(encoding="utf-8")
-)
-with (root / "RF-60m-feature-importance-v1.csv").open(
-    encoding="utf-8", newline=""
-) as handle:
-    rows = list(csv.DictReader(handle))
-
-csv_features = {row["feature"] for row in rows}
-print("Model:", summary["model_type"])
-print("Top-10 feature entries:", len(summary["top_10_features"]))
-print("Feature rows:", len(rows))
-print("Feature-importance total:", sum(float(row["importance"]) for row in rows))
-print(
-    "Features absent from CSV:",
-    [name for name in summary["feature_columns"] if name not in csv_features],
-)
-PY
-```
-
-Evaluation metrics can be independently recalculated from the preserved test-prediction files with scikit-learn. Use the same positive-class definitions recorded in each evaluation summary: supervised failure for Random Forest and anomaly/failure-window membership for Isolation Forest.
-
-## Reproduction Workflow
-
-1. Record Docker, Kind, Kubernetes, Python, k6, and package versions.
-2. Create the Kind cluster and deploy the test application.
-3. Restore the declared configuration before each run.
-4. Execute the selected workload and failure scenario.
-5. Collect Kubernetes, cgroup, application, and k6 evidence at the defined interval.
-6. Preserve raw files before cleaning or feature engineering.
-7. Build the exploratory or focused dataset.
-8. Train Random Forest and Isolation Forest using their separate pipelines.
-9. Evaluate only on the declared held-out data.
-10. export predictions, reports, figures, summaries, and SHA-256 manifests.
-
-## Quick Start
-
-Confirm the required tools:
+Confirm that the required tools are installed:
 
 ```bash
 docker version
@@ -209,30 +141,247 @@ k6 version
 git --version
 ```
 
-Create the cluster:
+Confirm that Docker can start a container:
+
+```bash
+docker run --rm hello-world
+```
+
+For Docker Desktop, allocate at least four CPU cores, 8 GB of memory, and sufficient free disk space for cluster images and experiment data.
+
+## Quick Start
+
+### 1. Create the Kind cluster
+
+If `kind/cluster.yaml` is present:
 
 ```bash
 kind create cluster --config kind/cluster.yaml
+```
+
+Otherwise, create a default cluster:
+
+```bash
+kind create cluster --name seminar-lab
+```
+
+Confirm access:
+
+```bash
 kubectl cluster-info
 kubectl get nodes -o wide
 ```
 
-Build and load the application:
+### 2. Build the test application
 
 ```bash
 docker build -t predictive-app:v1 application/
+```
+
+### 3. Load the image into Kind
+
+For a cluster named `seminar-lab`:
+
+```bash
 kind load docker-image predictive-app:v1 --name seminar-lab
 ```
 
-Deploy and verify:
+Replace `seminar-lab` with the output of `kind get clusters` when using a different cluster name.
+
+### 4. Deploy the application
 
 ```bash
 kubectl apply -f kubernetes/application.yaml
-kubectl rollout status deployment/predictive-app -n seminar --timeout=120s
+kubectl rollout status deployment/predictive-app \
+  -n seminar \
+  --timeout=120s
+```
+
+Confirm the workload:
+
+```bash
 kubectl get pods,service -n seminar -o wide
 ```
 
-Install the Python environment:
+### 5. Access the application
+
+Run this in a separate terminal:
+
+```bash
+kubectl port-forward \
+  -n seminar \
+  service/predictive-app \
+  8080:8080
+```
+
+Test the endpoints:
+
+```bash
+curl http://localhost:8080/health
+curl http://localhost:8080/work
+```
+
+### 6. Run a short workload test
+
+```bash
+RATE=1 DURATION=1m \
+k6 run load-tests/workload.js
+```
+
+## Resource Configurations
+
+The following are pilot starting values. The final values must be established through calibration and recorded in `docs/final-experiment-protocol.md`.
+
+### Healthy configuration
+
+```bash
+kubectl set resources deployment/predictive-app \
+  -n seminar \
+  --requests=cpu=100m,memory=64Mi \
+  --limits=cpu=500m,memory=256Mi
+
+kubectl set env deployment/predictive-app \
+  -n seminar \
+  LEAK_KB_PER_REQUEST=0 \
+  CPU_WORK_MS=10
+```
+
+### Pilot memory-failure configuration
+
+```bash
+kubectl set resources deployment/predictive-app \
+  -n seminar \
+  --requests=cpu=100m,memory=32Mi \
+  --limits=cpu=500m,memory=64Mi
+
+kubectl set env deployment/predictive-app \
+  -n seminar \
+  LEAK_KB_PER_REQUEST=128 \
+  CPU_WORK_MS=10
+```
+
+Confirm an OOM termination after the experiment:
+
+```bash
+POD_NAME=$(kubectl get pods \
+  -n seminar \
+  -l app=predictive-app \
+  -o jsonpath='{.items[0].metadata.name}')
+
+kubectl get pod "$POD_NAME" \
+  -n seminar \
+  -o jsonpath='{.status.containerStatuses[0].lastState.terminated.reason}{"\n"}'
+```
+
+The required result is `OOMKilled`.
+
+### Pilot CPU-degradation configuration
+
+```bash
+kubectl set resources deployment/predictive-app \
+  -n seminar \
+  --requests=cpu=25m,memory=64Mi \
+  --limits=cpu=50m,memory=256Mi
+
+kubectl set env deployment/predictive-app \
+  -n seminar \
+  LEAK_KB_PER_REQUEST=0 \
+  CPU_WORK_MS=50
+```
+
+CPU throttling can be inspected through cgroup statistics:
+
+```bash
+POD_NAME=$(kubectl get pods \
+  -n seminar \
+  -l app=predictive-app \
+  -o jsonpath='{.items[0].metadata.name}')
+
+kubectl exec -n seminar "$POD_NAME" -- \
+  cat /sys/fs/cgroup/cpu.stat
+```
+
+Compare `nr_throttled` and `throttled_usec` before and after the workload.
+
+## Experimental Protocol
+
+Each experiment should:
+
+1. Restore a known configuration.
+2. Wait for the deployment rollout to complete.
+3. Assign a unique `experiment_id`.
+4. Start the telemetry collector.
+5. Start the selected k6 workload.
+6. Collect observations once per minute.
+7. Record Kubernetes events, readiness, restarts, and termination state.
+8. Store k6 output and Kubernetes telemetry separately.
+9. Stop after the defined duration or confirmed failure.
+10. Preserve the raw data before preprocessing.
+
+Recommended proof-of-concept repetitions:
+
+| Scenario | Runs |
+|---|---:|
+| Healthy idle | 3 |
+| Healthy peak | 3 |
+| Memory failure | 3 |
+| CPU degradation | 3 |
+| **Total** | **12** |
+
+Healthy negative runs must be observed for the complete 60-minute window. Failure runs may end after failure evidence is captured.
+
+## Data Dictionary
+
+The processed dataset should contain at least:
+
+| Field | Description |
+|---|---|
+| `experiment_id` | Unique experimental run identifier |
+| `timestamp` | Observation time |
+| `memory_limit_mb` | Configured container memory limit |
+| `cpu_limit_millicores` | Configured container CPU limit |
+| `memory_utilisation_pct` | Memory usage relative to the configured limit |
+| `memory_growth_mb_min` | Change in memory usage per minute |
+| `cpu_utilisation_pct` | Estimated CPU utilisation |
+| `cpu_throttling_ratio` | Proportion of observed CPU time affected by throttling |
+| `request_rate` | Requests processed per second |
+| `response_latency_ms` | End-to-end request latency |
+| `workload_state` | Idle or peak |
+| `restart_count` | Current container restart count |
+| `ready` | Pod readiness condition |
+| `failure_type` | Healthy, OOMKilled, or CPU degradation |
+| `failure_within_60m` | Binary target label |
+
+See `data/data_dictionary.md` for the final types, units, sources, and validation rules.
+
+## Feature Engineering
+
+The model uses only information available at prediction time. Post-failure termination reasons, future restart counts, and failure timestamps must not be included as predictors.
+
+Key derived features include:
+
+```text
+memory_utilisation_pct = memory_usage_mb / memory_limit_mb * 100
+memory_growth_mb_min = change_in_memory_usage / elapsed_minutes
+```
+
+Where available, CPU throttling is derived from changes in cgroup `cpu.stat` values between consecutive observations.
+
+## Dataset Splitting
+
+Complete experimental runs must be assigned to training, validation, or testing. Rows from the same experiment must not be randomly distributed across different partitions because this would cause data leakage.
+
+For 12 exploratory runs, an initial split is:
+
+- Training: 8 runs
+- Validation: 2 runs
+- Testing: 2 runs
+
+The test partition must contain healthy and failed outcomes. The small number of independent experiments must be acknowledged when interpreting results.
+
+## Model Training
+
+Install project dependencies:
 
 ```bash
 python3 -m venv .venv
@@ -240,67 +389,160 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Refer to the experiment scripts and protocol documentation for scenario-specific commands. Do not run resource-exhaustion experiments against a live organisational or production system.
+Prepare the data:
 
-## Repository Structure
+```bash
+python model/prepare_data.py
+```
+
+Train the model:
+
+```bash
+python model/train.py
+```
+
+Evaluate the model:
+
+```bash
+python model/evaluate.py
+```
+
+Generate a prediction:
+
+```bash
+python model/predict.py --input data/processed/sample_prediction.csv
+```
+
+Commands become operational as their corresponding scripts are implemented.
+
+## Initial Random Forest Configuration
+
+```python
+RandomForestClassifier(
+    n_estimators=300,
+    max_depth=12,
+    min_samples_leaf=3,
+    class_weight="balanced",
+    random_state=42,
+    n_jobs=-1,
+)
+```
+
+Hyperparameters must be tuned using validation experiments only. Final evaluation must be performed once on the untouched test experiments.
+
+## Static-Threshold Baseline
+
+The Random Forest model is compared with a conventional baseline.
+
+Example memory rule:
 
 ```text
-.
-├── README.md
-├── application/       # Test application and container definition
-├── kind/              # Local Kubernetes cluster configuration
-├── kubernetes/        # Workload manifests
-├── load-tests/        # k6 workload definitions
-├── experiments/       # Collection, execution, and reset scripts
-├── data/
-│   ├── raw/           # Preserved source observations
-│   └── processed/     # Validated analytical datasets
-├── model/             # Feature, training, evaluation, and prediction code
-├── evidence/
-│   └── model/         # Reports, predictions, summaries, and checksums
-├── results/           # Evaluation figures and result exports
-└── docs/              # Experimental protocol and supporting documentation
+memory utilisation >= 85%
 ```
+
+Example CPU rule:
+
+```text
+CPU throttling is sustained
+AND latency exceeds the fixed degradation threshold
+```
+
+The final thresholds must be fixed before examining test-set outcomes.
+
+## Evaluation Metrics
+
+The project reports:
+
+- precision;
+- recall;
+- F1-score;
+- precision-recall area under the curve, where appropriate;
+- false warnings;
+- missed failures;
+- first correct warning time;
+- sustained warning lead time; and
+- model inference latency.
+
+Accuracy is not used as the principal measure because healthy observations may outnumber failure observations.
+
+## Expected Outputs
+
+The `results/` directory should contain:
+
+- `metrics.json`;
+- confusion matrix;
+- feature-importance chart;
+- memory behaviour chart;
+- CPU throttling and latency chart;
+- warning lead-time summary;
+- static-threshold comparison; and
+- experiment summary.
+
+Only genuine experimental outputs should be committed. Model-performance values must not be invented or inferred from incomplete runs.
+
+## Reproducibility Evidence
+
+The `evidence/` directory should contain:
+
+- environment and tool versions;
+- cluster and node information;
+- applied deployment configurations;
+- pod descriptions;
+- Kubernetes events;
+- confirmed `OOMKilled` status;
+- CPU-throttling observations; and
+- experiment start and completion records.
+
+Do not commit kubeconfig files, passwords, access tokens, personal data, or private organisational information.
+
+## Preventive Recommendations
+
+The proof of concept provides recommendations rather than unrestricted autonomous remediation.
+
+| Predicted condition | Recommended action |
+|---|---|
+| Low risk | Continue monitoring |
+| Moderate risk | Extend testing or canary observation |
+| High memory risk | Pause rollout and review memory allocation |
+| High CPU risk | Pause rollout and review CPU allocation |
+| Confirmed degradation | Roll back the resource change and investigate |
 
 ## Limitations
 
-- The environment was a local, single-node Kind cluster.
-- Only one test application was used.
-- The number of independent experiments was small relative to the row counts.
-- Rows within an experiment were temporally correlated.
-- The focused evaluation contained only one memory-failure trajectory.
-- Only one validated node-disruption experiment was available.
-- The focused Random Forest split does not prove cross-experiment generalisation.
-- The focused Isolation Forest requires threshold calibration to reduce healthy false positives.
-- The exploratory Isolation Forest missed many crash-loop and node-disruption observations.
-- Feature importance indicates association within this dataset, not causation.
-- A static-threshold baseline was not independently scored on the same final held-out evidence.
+- Kind does not reproduce every characteristic of a production Kubernetes environment.
+- The initial study uses one application and two resource-failure categories.
+- Twelve experiments constitute exploratory rather than production-scale validation.
+- Observations from the same experiment are temporally correlated.
+- Some failures occur immediately and provide no measurable 60-minute precursor.
+- Random Forest identifies statistical relationships; it does not prove causation.
+- The model must not be used for unsupervised production remediation without additional validation and safeguards.
 
-## Safe Operational Interpretation
+## Future Development
 
-This proof of concept provides decision support, not unrestricted autonomous remediation:
+Potential MIT final-project extensions include:
 
-- high supervised risk plus an anomaly signal may justify escalation, rollout pause, or resource review;
-- an anomaly without supervised risk should initially trigger investigation or increased observation;
-- Kubernetes events, probes, and threshold alerts should remain active;
-- model version, feature values, configuration change, recommendation, and operator response should be logged; and
-- production use requires broader workloads, repeated failures, multi-node validation, drift monitoring, and policy safeguards.
+- additional Kubernetes failure categories;
+- multiple application architectures;
+- managed multi-node Kubernetes environments;
+- comparison with XGBoost and Logistic Regression;
+- Isolation Forest for runtime anomaly detection;
+- model explainability using SHAP;
+- CI/CD and canary-deployment integration;
+- real-time prediction API and dashboard;
+- policy-controlled rollback; and
+- model and data-drift monitoring.
 
 ## Academic Use
 
-This repository accompanies a Master of Information Technology seminar paper in **Solving Industry Problems through IT Management**. Anyone reusing the code, data, or reported results should cite the repository and acknowledge the controlled proof-of-concept limitations.
+This repository accompanies a seminar paper in the area of **Solving Industry Problems through IT Management**. Results should be interpreted within the limitations of a controlled local experiment. Anyone reusing the work should cite the repository and the accompanying seminar paper.
 
 ## Author
 
-**OKOROWU EVAREST IGWE**  
-Master of Information Technology  
-Miva Open University of Nigeria  
-July 2026
-
-## Repository
-
-<https://github.com/evarestigwe/MIT8212-SEMINAR>
+    **OKOROWU EVAREST IGWE**  
+    MIT 8212 SEMINAR  
+    MIVA OPEN UNIVERSITY OF NIGERIA  
+    JULY 2026
 
 ## Licence
 
-No reusable licence is granted until a licence file is added. Confirm institutional and dataset requirements before selecting an open-source licence.
+Add the licence approved for the project before public release. The MIT Licence is a common option for reusable source code, but dataset and institutional requirements should be confirmed separately.
