@@ -1,4 +1,4 @@
-# 60-Minute Early Prediction of Kubernetes Pod and Node Failures Using Random Forest and Isolation Forest
+# DESIGN AND IMPLEMENTATION OF A 60 – MINUTE EARLY- WARNING HYBRID MLOPS SYSTEM FOR KUBERNETES POD AND NODE FAILURE PREDICTION USING RANDOM FOREST AND ISOLATION FOREST 
 
 This repository contains the Kubernetes laboratory, experiment scripts, telemetry, datasets, model outputs, and verification evidence developed for the MIT 8212 seminar project.
 
